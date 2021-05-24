@@ -1,0 +1,536 @@
+{
+	"locale": {
+		"locale_code": "es",
+		"locale_author": "inkbyte"
+	},
+	
+	"main_menu": {
+		"new_game": 	"Juego Nuevo",
+		"continue": 	"Continuar",
+		"options": 		"Opciones",
+		"dailydraft": 	"Reto Diario",
+		"unlocks": 		"Desbloqueos",
+		"compendium": 	"Compendio",
+		"exit": 		"Salir"
+	},	
+	
+	"profile_screen": {
+		"heading": 							"Partidas Previas",
+		"profile_button": 					"Perfil",
+		"pastruns_button": 					"Perfil De Jugador",
+		"pastruns_heading": 				"Partidas Previas",
+		"pastruns_rundetails_heading": 		"Detalles De Partida: ",
+		"pastruns_rundetails_class": 		"Clase: ",
+		"pastruns_rundetails_difficulty": 	"Dificultad: ",
+		"pastruns_rundetails_time": 		"Tiempo: ",
+		"pastruns_rundetails_rooms": 		"Salas: ",
+		"pastruns_rundetails_result": 		"Resultado: ",
+		"pastruns_rundetails_score": 		"Puntuación: ",
+		"pastruns_rundetails_essence": 		"Esencia: ",
+		"pastruns_rundetails_deck": 		"Mazo: ",
+		"pastruns_rundetails_items": 		"Objetos: "
+	},
+
+	"mastery_screen": {
+		"heading":							"Maestría de cartas",
+		"intro":							"Cada vez que llegues a La Cámara, tendrás una oportunidad de escoger una nueva carta para Masterizar.",
+		"byline": 							"Cada clase tiene 10 Comunes que puedes Masterizar."
+
+	},
+
+	"prerun_screen": {
+		"heading":							"Prepara tu Mochila",
+		"intro":							"Antes de adentrarte en La Cámara, puedes añadir una Carta de Clase Masterizada a tu Mochila.",
+		"byline": 							"Después de llegar a La Cámara, tendrás la oportunidad de [k]Masterizar[/k] una de 10 Cartas de Clase. Una vez [k]Masterizada[/k], podrás añadir una a tu mochila al empezar una nueva partida.\n\nNunca podrás elegir la misma carta en dos partidas consecutivas. La excepción a esta regla es [k]Poción de Vida[/k], la cual siempre está disponible."
+
+	},
+
+	"difficulty_screen": {
+		"heading": 							"Maestría de Cartas",
+	},
+	
+	"class_overview": {
+		"combo": {
+			"name": 	"Combo",
+			"desc": 	"Si tienes Combo y juegas un Ataque Rápido, el Ataque Rápido se repetirá tantas veces como tu cantidad de Combo. Estas repeticiones adicionales aplican todos los efectos de la carta, Piedras de Vacío incluidas, y se benefician de mejoras (Como Ira) y perjuicios (Como Vulnerable) que hayan sido aplicados antes en el mismo combo!"
+		},
+		
+		"balanced": {
+			"name": 	"Equilibrada",
+			"desc": 	"Una carta Equilibrada no consumirá Combo cuando se beneficie de él."
+		},
+		
+		"bleed": {
+			"name": 	"Sangrado",
+			"desc": 	"Sangrado hace daño al enemigo una vez por turno y baja 1 el contador cada vez que hace efecto, ya sea naturalmente o debido a una carta. El Sangrado hace efecto después de las acciones del enemigo, lo que significa que primero tendrás que bloquear."
+		},
+		
+		"corruption": {
+			"name": 	"Corrupción",
+			"desc": 	"La Corrupción es un recurso que ganarás en batallas, normalmente jugando cartas que lo dan directamente, o ganando 1 al Purgar. Las cartas que interactuan con Corrupción normalmente hacen un % de tu Corrupción como daño o bloqueo, por lo que nunca dejarán de crecer, pero al principio serán muy débiles."
+		},
+		
+		"soultithe": {
+			"name": 	"Diezmo de Alma",
+			"desc": 	"Cuando ganas un punto de Diezmo de Alma, también ganas un punto de corrupción - y por cada punto de Diezmo de Alma que tengas al inicio de cada turno, recibirás un punto de Amenaza. Hay formas de bajarlo, pero deberías tratar de aprovecharte de ello - tanto de la corrupción que recibes como de las cartas que Diezmo de Alma habilita."
+		},
+		
+		"threshold": {
+			"name": 	"Umbral",
+			"desc": 	"Umbral simplemente comprueba si tienes una cantidad de Diezmo de Alma o no, a menudo requiere que hayas ido consiguiéndolo en turnos anteriores para activar su efecto."
+		},
+		
+		"sift": {
+			"name": 	"Tamizar",
+			"desc": 	"Descarta del Mazo - aplicando cualquier efecto que normalmente aplicarías si descartas de tu Mano, también puedes usar este efecto para no robar cartas que no vayas a querer en los próximos turnos."
+		},
+		
+		"discard": {
+			"name": 	"Descarta",
+			"desc": 	"Envías una carta de tu Mano al descarte, aplicando efectos de descarte (pero no efectos de Purga). A menudo encontrarás cartas como 'Roba 1, Descarta 1', que te ayudarán a refinar las cartas que tienes en mano, pero sin incrementan su número."
+		},
+		
+		"recur": {
+			"name": 	"Devolver",
+			"desc": 	"Devuelve una carta a tu elección de tu pila de descarte a tu mano."
+		},
+		
+		"deathstrike": {
+			"name": 	"Golpe Letal",
+			"desc": 	"Si juegas un Ataque y tienes acumulado Golpe Letal igual a su coste, el ataque se repetirá una vez más, y Golpe Letal se reducirá en esa misma cantidad (Un ataque de coste 3 requiere y consume 3 Golpe Letal). En particular, Golpe Letal tomará como referencia el coste actual, no el coste 'base' de la carta."
+		},
+				
+		"chain": {
+			"name": 	"Cadena",
+			"desc": 	"Cuando juegas una carta, ganas Cadena correspondiente a su tipo (Ataque, Habilidad, Mejora). Jugar varias cartas del mismo tipo consecutivamente sumará a la Cadena, mientras que cambiar de tipo restará. Cuando la Cadena llega a 3, entras en modo Zen."
+		},
+		
+		"zen": {
+			"name": 	"Zen",
+			"desc": 	"Cuando entras en modo Zen, tus próximas 5 cartas cuestan 1 menos, además aplican cualquier efecto Zen o Seguimiento que tengan. Si consigues jugar suficientes cartas, puedes entrar en modo Zen varias veces en un turno, pero sus efectos no se mantendrán para turnos posteriores."
+		},
+		
+		"opener": {
+			"name": 	"Apertura",
+			"desc": 	"El efecto solo se aplica si es la primera cartas que juegas este turno. Puede que esto complique tus planes para crear Cadenas, Seguimiento o simplemente jugar otras cartas de Apertura, pero hay muchos efectos con gran impacto disponibles en cartas de Apertura a muy bajos costes."
+		},
+		
+		"followup": {
+			"name": 	"Seguimiento",
+			"desc": 	"Requiere que la Cadena coincida con el tipo de carta en cuestión - así que si estás jugando una habilidad con Seguimiento, la cadena tendría que ser azul, indicando que una habilidad fue la última carta jugada. Estar en modo Zen cuenta como tener todos los tipos de Cadena activos para el propósito de Seguimiento."
+		},
+
+		"futurestrike": {
+			"name": 	"Golpe Futuro",
+			"desc": 	"El daño de este tipo se acumula en el objetivo, y se aplica al final del siguiente turno par del jugador (Antes de resolver la Amenaza). Golpe Futuro se beneficia de Ira cuando es aplicado (cuando se juega la carta), pero se beneficia de Vulnerable cuando se aplica el efecto (al final del turno). Cada vez que una criatura sufre los efectos de Golpe Futuro, también sufre 1 Fatiga - y cada vez que Golpe Futuro se aplica a una criatura con Fatiga, se aplicará una vez más por cada punto de Fatiga en el objetivo (Por tanto '5 Golpe Futuro, dos veces' contra un enemigo con 2 Fatiga aplicaría 5 Golpe Futuro 4 veces)."
+		},
+		
+		"shii": {
+			"name": 	"Shii",
+			"desc": 	"El daño de este tipo se acumulará en el objetivo, solo aplicándose cuando Shii sobrepase sus PS restantes, acabando con el objetivo y repartiendo por igual la mitad de Shii acumulado entre las otras criaturas. Shii puede beneficiarse de Ira, pero no de Vulnerable. Cuando Shii en una criatura es más alto que la mitad de sus PS restantes, también aplica 1 Fatiga - y cada vez que Shii se aplica contra un objetivo con Fatiga, cada instancia de Shii aplicada se incrementa 1 por cada punto de Fatiga en el objetivo."
+		},		
+		
+		
+		"fatigue": {
+			"name": 	"Fatiga",
+			"desc": 	"La Fatiga es aplicada por, y beneficia a, Shii y Golpe Futuro al matar enemigos. Aparte de esos, algunas otras cartas y artefactos pueden tener efectos que se aplican cuando el objetivo tiene Fatiga, o incrementan su potencia basándose en la cantidad de Fatiga del enemigo."
+		},
+		
+
+	},
+	
+	
+	"guardian_choice": {
+		"header": 							"El botín de la victoria es tuyo...",
+		"body_text": 						"Elige una recompensa de la lista a continuación para ayudarte en tu cruzada contra El Vacío.",
+		"choice_1": 						"Recibe un sobre de cartas.",
+		"choice_2": 						"Gana 25 PS máximos adicionales.",
+		"choice_3": 						"Gana 2 Piedras de Vacío aleatorias.",
+		"choice_4": 						"Gana 2 puntos de mejora.",
+	},
+	
+	"arkaos_choice": {
+		"header": 							"La Bestia yace derrotada ante ti...",
+		"body_text": 						"Cuando vas a darte la vuelta para irte, te das cuenta de que hay 4 cuentas en el suelo, que se separaron del collar de la criatura.",
+	},
+	
+	"stances": {
+		"aggressive_stance":				"Actitud Agresiva",
+		"defensive_stance":					"Actitud Defensiva",
+		"stance_locked":					"¡Cambio de actitud bloqueado!",
+		"daze_locked":						"Cambio de actitud bloqueado. ¡Estás Confuso!"
+	},
+	
+	"classes" : {
+		"the_hidden":	"El Oculto",
+		"daughter":		"La Hija de El Vacío",
+		"monk":			"El Iluminado",
+		"oathbreaker":	"Rompejuramentos"
+	},
+	
+	"cards": {
+		"001": {
+			"name": 	"Tajo",
+			"desc": 	"Inflige #a de daño.",
+			"up_desc": 	"Inflige [u]#a[/u] de daño."
+		},
+		
+		"002": {
+			"name": 	"Aplastar",
+			"desc": 	"Hace #a de daño. Gana 1 de Fuerza.",
+			"up_desc": 	"Hace [u]#a[/u] de daño. Gana 1 de Fuerza."
+		},
+		
+		"010": {
+			"name": 	"Desviar",
+			"desc": 	"[k]Bloquea[/k] #d.",
+			"up_desc": 	"[k]Bloquea[/k] [u]#d[/u].\n[u]Purga: Bloquea 4.[/u]"
+		},
+	},
+	
+	"mob_groups": {
+		"arkaos": {
+			"name": 	"Arkaos",
+			"desc": 	"Arkaos, La Bestia de los Elementos, el avatar de su poder, avanza mientras que otro campeón ha perdido ante la inexorable corrupción del Vacío. Alrededor de su cuello brillan colgantes de Tierra, Fuego, Viento y Agua - su una vez natural equilibrio pende torturado en la esclavitud de su captor.",
+			"tips":		"Un combate equilibrado. Tiene la habilidad de infligir Quemadura y ganar grandes cantidades de Entereza."
+		},
+	
+		"jaws_of_death": {
+			"name": 	"Fauces de la Muerte",
+			"desc": 	"Esta criatura no es nada más allá de lo primitivo. Acecha estas infinitas profundidades sin ninguna intención más que el instinto de alimentarse. Es tan ancestral que ni si quiera El Vacío puede proclamarse su maestro.",
+			"tips":		"Esta criatura es inmune a Vulnerable, y ocasionalmente puede curarse a través de Sangrado."
+		},
+			
+		"the_forged": {
+			"name": 	"Soldado Forjado",
+			"desc": 	"Malicia encerrada en la más oscura obsidiana; un gólem forjado con el odio extraído de la rueda del tiempo. Existe con el único fin de atiborrarse de la dulce agonía de la frágil mortalidad.",
+			"tips":		"Combina Entereza y ganar AP con ataques, continuamente volviéndose más peligroso."
+		},
+
+		"scoutlight": {
+			"name": 	"Luz de los Desalmados",
+			"desc": 	"Una luz en la oscuridad debería ser una vista bienvenida. Una ofrenda de esperanza. Un respiro fugaz. Pero esta pálida luminosidad ofrece solo locura a gritos para aquellos que miran demasiado profundamente en su tétrico resplandor.",
+			"tips":		"Este enemigo es Inmune cuando tienes demasiadas cartas en tu mano, lo cual complementará con Confuso, obligándote a jugar lentamente."
+		},
+
+		"disciples_of_straw": {
+			"name": 	"Discípulos de Heno",
+			"desc": 	"El Sacerdote se encuentra en el centro de un campo sin fin, rodeado de almas malditas que se balancean en los viles vientos del susurrante y lejano vacío. Sobre sus brazos extendidos se reúnen los alas negras, que graznan un cántico blasfemo para ofrecer la próxima cosecha de almas.",
+			"tips":		"Esta criatura infligirá Maldición y causará daño según las cartas robadas. Cuando sus esbirros aparecen, su AP será basado en la ronda de juego actual."
+		},
+
+		"wicked_worshipers": {
+			"name": 	"Adoradores Malignos",
+			"desc": 	"En los húmedos y oscuros rincones de La Cámara, las almas desesperadas se convierten y juran devoción a cualquier cosa que sientan que puede llenarles de luz. Sin embargo El Vacío es una cruel deidad y las oraciones de unos pocos a menudo se quedarán sin respuesta.",
+			"tips":		"Presta atención a la Efigie acumulando mejoras para asestar un gran golpe mientras que evita que ataques a sus aliados."
+		},
+	},
+
+	"monster_names": {
+		"scoutlight":		"Luz Errante",
+		"void_hidden":		"Tocado por El Vacío",
+		"void_daughter":	"Tocado por El Vacío",
+		"void_monk":		"Tocado por El Vacío",
+		"void_holding_1":	"Tocado por El Vacío",
+		"void_holding_2":	"Tocado por El Vacío",
+		"void_holding_3":	"Tocado por El Vacío",
+		"void_holding_4":	"Tocado por El Vacío",
+		"void_effigy":		"Efigie del Vacío",
+		"robed_cultist":	"Cultista con túnica"
+
+	},
+	
+	"monster_abilities": {
+		"ancient_beast": {
+			"name": 	"Bestia Ancestral",
+			"desc": 	"Esta criatura es Inmune a Vulnerable."
+		},
+		
+		"blessed_plating": {
+			"name": 	"Armadura Bendita",
+			"desc": 	"Ignora la primera instancia de daño o perjuicio aplicado cada turno.",
+			"short": 	"Ignora la primera instancia de daño o perjuicio aplicado cada turno."
+		},
+
+		"grim_glow": {
+			"name": 	"Resplandor Sombrío",
+			"desc": 	"Mientras tengas # o más cartas en tu mano, este enemigo es Inmune.",
+			"short": 	"Mientras tengas # o más cartas en tu mano, este enemigo es Inmune."
+		},
+
+		"dusk_flash": {
+			"name": 	"Destello del Anochecer",
+			"desc": 	"Añade # Confuso(s) y después Ataca.",
+			"short": 	"Añade # Confuso(s).\nAtaca."
+		},
+
+		"toxic_vapors": {
+			"name": 	"Vapores Tóxicos",
+			"desc": 	"Añade 1 Confuso y después aplica Veneno #.",
+			"short": 	"Añade 1 Confuso.\nAplica Poison #."
+		},
+
+		"tenebrous_haze": {
+			"name": 	"Neblina Tenebrosa",
+			"desc": 	"Añade 1 Vacío a tu Mazo y después aplica Miedo #.",
+			"short": 	"Añade 1 Vacío al Mazo.\nAplica Miedo #."
+		},				
+
+		"the_voids_darkness": {
+			"name": 	"La Oscuridad de El Vacío",
+			"desc": 	"Añade 1 Maldición y 1 Confuso a tu Descarte.",
+			"short": 	"Añade 1 Maldición.\nAñade 1 Miedo."
+		},
+
+		"the_voids_corruption": {
+			"name": 	"La Corrupción de El Vacío",
+			"desc": 	"Añade 1 carta Agotamiento a tu Descarte.",
+			"short": 	"Añade 1 Agotamiento."
+		},
+
+		"the_voids_decay": {
+			"name": 	"La Decadencia de El Vacío",
+			"desc": 	"Añade 1 Remordimiento a tu descarte.",
+			"short": 	"Añade 1 Remordimiento."	
+		},
+		
+		"i_serve_the_void": {
+			"name": 	"Yo Sirvo al Vacío",
+			"desc": 	"Este enemigo se sacrificará, curando a El Vacío una cantidad igual a sus PS restantes al hacerlo.",
+			"short": 	"Cura a El Vacío igual a sus PS restantes, después muere."	
+		},
+		
+		"let_me_protect_you": {
+			"name": 	"Déjame Protegerte",
+			"desc": 	"Dará a todos los esbirros Entereza igual al 20% de sus PS máximos.",
+			"short": 	"20% Entereza a todos los esbirros."	
+		},
+		
+		"let_me_inspire_you": {
+			"name": 	"Déjame Inspirarte",
+			"desc": 	"El esbirro con más PS ganará Provocar 2",
+			"short": 	"Otorga al Esbirro\nProvocar 2."	
+		},
+		
+		"let_me_soothe_you": {
+			"name": 	"Déjame Calmarte",
+			"desc": 	"Todos los esbirros serán curados un 10% de sus PS máximos.",
+			"short": 	"Cura Esbirros 10%."	
+		},
+		
+		"let_me_strengthen_you": {
+			"name": 	"Déjame Fortalecerte",
+			"desc": 	"Todos los esbirros ganan +# AP.",
+			"short": 	"+# AP a todos los Esbirros."	
+		},
+		
+		"let_me_shelter_you": {
+			"name": 	"Déjame Refugiarte",
+			"desc": 	"El esbirro con los PS más bajos ganará Evasión 2",
+			"short": 	"Otorga al esbirro\nEvasión 2."	
+		},
+
+		"the_void_corrupts": {
+			"name": 	"El Vacío Atormenta",
+			"desc": 	"Aplicará Miedo # y después Ataca.",
+			"short": 	"Aplica Miedo #,\ndespués Ataca."	
+		},
+		
+		"the_void_ignites": {
+			"name": 	"El Vacío Incendia",
+			"desc": 	"Aplicará Quemadura # y después Ataca.",
+			"short": 	"Aplica Quemadura #,\ndespués Ataca."	
+		},
+
+		"the_void_reclaims": {
+			"name": 	"El Vacío Reclama",
+			"desc": 	"Aplicará Embrujo # y después Ataca.",
+			"short": 	"Aplica Embrujo #,\ndespués Ataca."	
+		},
+
+		"the_void_suffocates": {
+			"name": 	"El Vacío Sofoca",
+			"desc": 	"Añade # Maldición a tu Mazo y después Ataca.",
+			"short": 	"Añade # Maldición,\ndespués Ataca."	
+		},
+
+		"the_void_overwhelms": {
+			"name": 	"El Vacío Abruma",
+			"desc": 	"Aplicará Aturdido y Confuso 1 y después Ataca.",
+			"short": 	"Aplica Aturdido & Confuso 1,\ndespués Ataca."	
+		},
+
+		"the_void_weakens": {
+			"name": 	"El Vacío Debilita",
+			"desc": 	"Aplicará Vulnerable # y después Ataca.",
+			"short": 	"Aplica Vulnerable #,\ndespués Ataca."	
+		},
+
+		"the_void_infects": {
+			"name": 	"El Vacío Infecta",
+			"desc": 	"Aplicará Veneno # y después Ataca.",
+			"short": 	"Aplica Veneno #,\ndespués Ataca."	
+		},
+
+		"the_void_decays": {
+			"name": 	"El Vacío Pudre",
+			"desc": 	"Aplicará Lisiado 1 y después Ataca.",
+			"short": 	"Aplica Lisiado 1,\ndespués Ataca."	
+		},
+
+		"scapegoat": {
+			"name": 	"Chivo Expiatorio",
+			"desc": 	"Al inicio de cada turno, gana Provocar #. Pierde 1 Provocar cada vez que es objetivo de un Ataque.",
+			"short": 	"Al inicio de cada turno, gana Provocar #. Pierde 1 Provocar cada vez que es objetivo de un Ataque."	
+		},
+
+		"symbol_of_despair": {
+			"name": 	"Símbolo de la Desesperación",
+			"desc": 	"Aplicará Miedo 2.",
+			"short": 	"Aplica Miedo 2."	
+		},
+		
+		"symbol_of_nothingness": {
+			"name": 	"Símbolo de la Nada",
+			"desc": 	"Aplicará Maleficio 1 y Embrujo 1.",
+			"short": 	"Aplica Maleficio 1 & Embrujo 1."	
+		},
+
+		"symbol_of_suffering": {
+			"name": 	"Símbolo del Sufrimiento",
+			"desc": 	"Atacará, después pierde 2 AP (hasta un mínimo de 1).",
+			"short": 	"Ataca, después pierde 2 AP."	
+		},
+
+		"praise_the_void": {
+			"name": 	"Alabado sea El Vacío",
+			"desc": 	"Incrementa el AP de la Efigie en # y la cura un 10% de sus PS máximos.",
+			"short": 	"La Efigie gana\n+# AP y se cura 10%."	
+		},
+
+		"embrace_despair": {
+			"name": 	"Acepta la Desesperación",
+			"desc": 	"Incrementa el AP en # y después sufre Sangrado 4.",
+			"short": 	"Gana +# AP.\nSufre Sangrado 4. "	
+		},
+
+				
+		"energized_attack": {
+			"name": 	"Ataque Cargado",
+			"desc": 	"Incrementa el AP en # y después Ataca.",
+			"short": 	"Gana +# AP.\nAtaca."
+		},
+
+		"surging_magic": {
+			"name": 	"Magia Creciente",
+			"desc": 	"Incrementa el AP en +# y la Entereza igual al 10% de sus PS máximos.",
+			"short": 	"Gana +# AP.\ny 10% de Entereza."
+		},
+
+		"encircle": {
+			"name": 	"Rodear",
+			"desc": 	"Inflige Miedo # y Vulnerable 2."
+		},
+		
+		"bathe_in_blood": {
+			"name": 	"Baño de Sangre",
+			"desc": 	"Reduce el Sangrado un 50%, después se cura una cantidad igual al Sangrado actual."
+		},
+		
+		"my_loyal_following": {
+			"name": 	"Mis Leales Seguidores",
+			"desc": 	"Cada vez que robas una carta que no es un Vacío, sufrirás # de daño. Si robas una Maldición, sufrirás 2 de daño adicional."
+		},
+		
+		"if_i_could_walk": {
+			"name": 	"Si Pudiera Andar Te Patearía En...",
+			"desc": 	"A pesar de su frustración, esta criatura no hará nada."
+		},
+
+		"communion": {
+			"name": 	"Hora de la Comunión",
+			"desc": 	"Infligirá # Maldición."
+		},
+		
+		"the_void_fills_us_all": {
+			"name": 	"El Vacío Nos Llena A Todos",
+			"desc": 	"Ganará 1 AP cada turno y cada vez que se reduzca un perjuicio, estos serán reducidos en #.\nSiempre tendrá Evasión mientras que sus Esbirros estén vivos."
+		},
+		
+		"earth": {
+			"name": 	"Tierra",
+			"desc": 	"Aplicará Aturdido #."
+		},
+		
+		"fire": {
+			"name": 	"Fuego",
+			"desc": 	"Aplicará Quemadura #."
+		},
+		
+		"wind": {
+			"name": 	"Viento",
+			"desc": 	"Robarás # cartas. Al final del turno, tu Mano será descartada."
+		},
+		
+		"water": {
+			"name": 	"Agua",
+			"desc": 	"Inflige # Confuso."
+		},
+		
+		"beast_of_the_elements": {
+			"name": 	"Bestia de los Elementos",
+			"desc": 	"Si derrotas a esta criatura, sus Brazos también serán derrotados."
+		},		
+		
+		"shield_wall": {
+			"name": 	"Muro de Escudo",
+			"desc": 	"Todas las criaturas ganan Entereza igual al 10% de sus PS máximos."
+		},
+		
+		"consume_blood": {
+			"name": 	"Consumir Sangre",
+			"desc": 	"Eliminará el Sangrado de todas las criaturas, e infligirá daño equivalente al sangrado eliminado."
+		},
+
+		
+		
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

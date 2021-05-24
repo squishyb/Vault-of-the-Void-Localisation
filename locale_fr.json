@@ -1,0 +1,500 @@
+{
+	"locale": {
+		"locale_code": "fr",
+		"locale_author": "inkbyte"
+	},
+
+	"main_menu": {
+		"new_game": 	"Nouvelle Partie",
+		"continue": 	"Continuer",
+		"options": 		"Options",
+		"dailydraft": 	"Draft du jour",
+		"unlocks": 		"Déverrouillé",
+		"compendium": 	"Compendium",
+		"exit": 		"Quitter"
+	},
+
+	"profile_screen": {
+		"heading": 							"Past Runs",
+		"profile_button": 					"Profile",
+		"pastruns_button": 					"Player Profile",
+		"pastruns_heading": 				"Past Runs",
+		"pastruns_rundetails_heading": 		"Run Details: ",
+		"pastruns_rundetails_class": 		"Class: ",
+		"pastruns_rundetails_difficulty": 	"Difficulty: ",
+		"pastruns_rundetails_time": 		"Time: ",
+		"pastruns_rundetails_rooms": 		"Rooms: ",
+		"pastruns_rundetails_result": 		"Result: ",
+		"pastruns_rundetails_score": 		"Score: ",
+		"pastruns_rundetails_essence": 		"Essence: ",
+		"pastruns_rundetails_deck": 		"Deck: ",
+		"pastruns_rundetails_items": 		"Items: "
+	},
+
+	"mastery_screen": {
+		"heading":							"Card Mastery",
+		"intro":							"Each time you make it to the Vault, you'll get a chance to choose a new card to Master.",
+		"byline": 							"Each class has 10 Commons you can Master."
+
+	},
+
+	"prerun_screen": {
+		"heading":							"Prepare your Backpack",
+		"intro":							"Before each delve into the Vault, you can add a Mastered Class Card to your Backpack.",
+		"byline": 							"After a run where you reach the Vault, you'll have the ability to [k]Master[/k] one of 10 Class cards. Once [k]Mastered[/k], you'll be able to add one to your Backpack at the start of new runs.\n\nYou'll never be able to take the same card two runs in a row. The exception to this is the [k]Health Potion[/k], which is always available."
+
+	},
+
+	"difficulty_screen": {
+		"heading": 							"Card Mastery",
+	},
+
+	"class_overview": {
+		"combo": {
+			"name": 	"Combo",
+			"desc": 	"If you have Combo and play a Swift Attack, the Swift Attack will trigger extra times equal to your Combo. These extra triggers apply every effect of the card, Void Stone included, and can even benefit from buffs (eg. Rage) or debuffs (eg. Vulnerable) applied earlier in the same Combo!"
+		},
+
+		"balanced": {
+			"name": 	"Balanced",
+			"desc": 	"A Balanced card won't consume Combo when benefiting from it."
+		},
+
+		"bleed": {
+			"name": 	"Bleed",
+			"desc": 	"Bleed deals damage to enemies once a turn and goes down by 1 each time it triggers, whether normally or due to a card. The ability to deal repeated damage is kept in check by it triggering after enemy actions, meaning you'll still need to keep Block going."
+		},
+
+		"corruption": {
+			"name": 	"Corruption",
+			"desc": 	"Corruption is an ever-increasing resource you'll gain on a per-battle basis, usually from playing cards that give it directly, or 1 at a time whenever you Purge. Cards that interact with Corruption usually do a % of your Corruption as damage or Block, meaning they never stop growing stronger, but start off absurdly weak."
+		},
+
+		"soultithe": {
+			"name": 	"Soultithe",
+			"desc": 	"When you first gain a point of Soultithe, you also gain a point of Corruption - and for every point of Soultithe you have at the start of each turn, you'll take a point of Threat. There are ways to lower it available, but you should be as focused on taking advantage of it - both the Corruption it gives, the cards enabled by Soultithe itself."
+		},
+
+		"threshold": {
+			"name": 	"Threshold",
+			"desc": 	"This is simply a check of whether you have a certain amount of Soultithe or not, often requiring you to have carried a bit over from the previous turn in order to trigger Threshhold effects without making your play order awkward."
+		},
+
+		"sift": {
+			"name": 	"Sift",
+			"desc": 	"Discard from deck - triggering any effects you'd normally triggers by discarding from hand, you can also use this to simply eliminate cards you don't want to draw over the next couple of turns."
+		},
+
+		"discard": {
+			"name": 	"Discard",
+			"desc": 	"Sends a card from hand to discard, triggering discard effects (but not Purge effects). You'll often find this in a 'Draw 1, Discard 1' format, where it allows you to trigger discard effects and refine what's in your hand, but not increase your overall card count."
+		},
+
+		"recur": {
+			"name": 	"Recur",
+			"desc": 	"Pull a card of your choice from your discard straight to your hand."
+		},
+
+		"deathstrike": {
+			"name": 	"Death Strike",
+			"desc": 	"If you play an Attack and you have accumulated Death Strike equal to its cost, the Attack will trigger an extra time, and Death Strike will be reduced by that same cost (So a 3 cost Attack will both require and consume 3 Death Strike). Notably, this looks at the card's actual cost when played, not its 'base' cost."
+		},
+
+		"chain": {
+			"name": 	"Chain",
+			"desc": 	"When you play a card, you gain Chain according to its type (Attack, Ability, Buff). Playing multiple of the same type in a row will add to the chain, whereas switching types will reset it. When the Chain hits 3, you enter Zen."
+		},
+
+		"zen": {
+			"name": 	"Zen",
+			"desc": 	"Upon entering Zen, your next 5 cards played will cost 1 less, and trigger any Zen or Follow-Up effects they have. If you manage to play enough cards, you can trigger Zen multiple times in the same turn, but its effects won't last across turns."
+		},
+
+		"opener": {
+			"name": 	"Opener",
+			"desc": 	"An effect that only triggers if it's the first card played in a turn, you'll find this complicating your plans to Chain, Follow-Up or just play other Opener cards pretty often, but there's a lot of high-impact effects available for cheap on Opener cards."
+		},
+
+		"followup": {
+			"name": 	"Follow-Up",
+			"desc": 	"Requires the Chain to match the card in question's type - so if you're playing an Ability with Follow-Up, the Chain would need to be blue, indicating an Ability was the last card played. Being in Zen counts as having every type of Chain active for the purpose of Follow-Up."
+		},
+
+		"futurestrike": {
+			"name": 	"Future Strike",
+			"desc": 	"Damage of this type will accumulate on a target, and trigger at the end of the next even-numbered player turn (before Threat resolves). Future Strike benefits from Rage when it is applied (when the card is played), but benefits from Vulnerable when it resolves (at the end of a turn). Each time a creature has Future Strike triggered on it, it also suffers 1 Fatigue - and each time Future Strike is applied to a creature with Fatigue, it'll apply an extra time for each point of Fatigue on the target (So using '5 Future Strike, twice' against an enemy with 2 Fatigue would apply 5 Future Strike 4 times)."
+		},
+
+		"shii": {
+			"name": 	"Shii",
+			"desc": 	"Damage of this type will accumulate on a target, only triggering when Shii overwhelms their remaining HP, killing them - spreading half of the Shii they had accumulated evenly amongst other creatures. Shii can benefit from Rage, but not Vulnerable. When Shii on a creature is greater than half of its remaining HP, it also suffers 1 Fatigue - and each time Shii is applied against a Fatigued target, each instance of Shii added is increased by 1 for each point of Fatigue on the target."
+		},
+
+
+		"fatigue": {
+			"name": 	"Fatigue",
+			"desc": 	"Fatigue is added by, and benefits, Shii and Future Strike in killing enemies. Aside from those, some other cards or artifacts may also have effects they trigger when a target is Fatigued, or increase in potency based on the total number of Fatigue stacks on enemies."
+		},
+
+
+	},
+
+
+	"guardian_choice": {
+		"header": 							"The spoils of victory are yours to choose from...",
+		"body_text": 						"Choose a reward from the list below to aid in your crusade against The Void.",
+		"choice_1": 						"Receive a Booster Pack.",
+		"choice_2": 						"Gain an additional 25 max HP.",
+		"choice_3": 						"Gain 2 Random Void Stones.",
+		"choice_4": 						"Gain 2 Upgrade Points.",
+	},
+
+	"arkaos_choice": {
+		"header": 							"The Beast lies defeated before you...",
+		"body_text": 						"As you turn to leave you notice 4 beads laying on the floor, snapped free from the creatures necklace.",
+	},
+
+	"stances": {
+		"aggressive_stance":				"Aggressive Stance",
+		"defensive_stance":					"Defensive Stance",
+		"stance_locked":					"Stance switching locked!",
+		"daze_locked":						"Stance switching locked. You have a Daze card!"
+	},
+
+	"classes" : {
+		"the_hidden":	"The Hidden",
+		"daughter":		"Daughter of the Void",
+		"monk":			"The Enlightened",
+		"oathbreaker":	"Oathbreaker"
+	},
+
+	"cards": {
+		"001": {
+			"name": 	"Slash",
+			"desc": 	"Deal #a damage.",
+			"up_desc": 	"Deal [u]#a[/u] damage."
+		},
+
+		"002": {
+			"name": 	"Smash",
+			"desc": 	"Deal #a damage. Gain 1 Strength.",
+			"up_desc": 	"Deal [u]#a[/u] damage. Gain 1 Strength."
+		},
+
+		"010": {
+			"name": 	"Parry",
+			"desc": 	"[k]Block[/k] #d.",
+			"up_desc": 	"[k]Block[/k] [u]#d[/u].\n[u]Purge: Block 4.[/u]"
+		},
+	},
+
+	"mob_groups": {
+		"arkaos": {
+			"name": 	"Arkaos",
+			"desc": 	"Arkaos, Beast of the Elements, the avatar of their power, strides forward as yet another champion lost to the Void's inexorable corruption. Around its neck glows pendants of Earth, Fire, Wind, and Water - their once natural balance hangs tortured in the thrall of their captor.",
+			"tips":		"A balanced fight. Has the ability to inflict Burning and gains large amounts of Fortitude."
+		},
+
+		"jaws_of_death": {
+			"name": 	"Jaws of Death",
+			"desc": 	"This creature is nothing beyond primeval, one that stalks these endless depths with no malicious intent other than an instinct to feed. It is ancient beyond knowing who not even The Void can claim as its master.",
+			"tips":		"This creature is Immune to Vulnerable, and can also occasionally heal from Bleed."
+		},
+
+		"the_forged": {
+			"name": 	"Forged Soldier",
+			"desc": 	"Malice incased in the darkest obsidian; a golem forged with hatred syphoned from the spinning wheel of time. It exists simply to gorge itself on the sweet agony of frail mortality.",
+			"tips":		"Interweaves Fortitude and AP gain with attacks, constantly escalating its threat while you wait for an opening."
+		},
+
+		"scoutlight": {
+			"name": 	"Light of the Soulless",
+			"desc": 	"A light in the dark should be a welcome sight. An offering of hope. A fleeting reprieve. But this pale luminosity offers only screaming madness for those that peer too deep into its baleful glow..",
+			"tips":		"This enemy is Immune while you have too many cards in hand, which it'll supplement with Dazes, forcing you to play slowly."
+		},
+
+		"disciples_of_straw": {
+			"name": 	"Disciples of Straw",
+			"desc": 	"The Priest stands in the centre of endless field, surrounded by damned souls that sway in the vile winds of the whispering void far below. Perched on outstretched arms are the black winged congregation, that caw a blasphemous chant to yield the next soul harvest.",
+			"tips":		"This creature will inflict Banes and deal damage based on cards drawn. When its Minions spawn, their AP is based off the current Battleround."
+		},
+
+		"wicked_worshipers": {
+			"name": 	"Wicked Worshipers",
+			"desc": 	"In the damp, dark corners of the Vault, desperate souls will turn and swear devotion to the anything they sense may fill them with light. The Void is a crewl deity however - and the prayers of the few will often go unanswered.",
+			"tips":		"Keep an eye on the Effigy getting buffed up for a big hit while it keeps you from targeting Attacks on its supporting allies."
+		},
+	},
+
+	"monster_names": {
+		"scoutlight":		"Errant Scoutlight",
+		"void_hidden":		"Void Touched",
+		"void_daughter":	"Void Touched",
+		"void_monk":		"Void Touched",
+		"void_holding_1":	"Void Touched",
+		"void_holding_2":	"Void Touched",
+		"void_holding_3":	"Void Touched",
+		"void_holding_4":	"Void Touched",
+		"void_effigy":		"Void Effigy",
+		"robed_cultist":	"Robed Cultist"
+
+	},
+
+	"monster_abilities": {
+		"ancient_beast": {
+			"name": 	"Ancient Beast",
+			"desc": 	"This creature is immune to Vulnerable."
+		},
+
+		"blessed_plating": {
+			"name": 	"Blessed Plating",
+			"desc": 	"Ignores the first instance of damage or debuff applied each turn.",
+			"short": 	"Ignores the first instance of damage or debuff applied each turn."
+		},
+
+		"grim_glow": {
+			"name": 	"Grim Glow",
+			"desc": 	"While you have # or more cards in hand, this enemy is Immune.",
+			"short": 	"While you have # or more cards in hand, this enemy is Immune."
+		},
+
+		"dusk_flash": {
+			"name": 	"Dusk Flash",
+			"desc": 	"Adds # Daze(s) and then will Attack.",
+			"short": 	"Add # Daze(s).\nAttack."
+		},
+
+		"toxic_vapors": {
+			"name": 	"Toxic Vapors",
+			"desc": 	"Adds 1 Daze and then applies Poison #.",
+			"short": 	"Add 1 Daze.\nApply Poison #."
+		},
+
+		"tenebrous_haze": {
+			"name": 	"Tenebrous Haze",
+			"desc": 	"Adds 1 Void to your Deck, and then applies Fear #.",
+			"short": 	"Add 1 Void to Deck.\nApply Fear #."
+		},
+
+		"the_voids_darkness": {
+			"name": 	"The Void's Darkness",
+			"desc": 	"Adds 1 Bane and 1 Daze to your Discard.",
+			"short": 	"Add 1 Bane.\nAdd 1 Daze"
+		},
+
+		"the_voids_corruption": {
+			"name": 	"The Void's Corruption",
+			"desc": 	"Adds 1 Exhaustion card to your Discard.",
+			"short": 	"Add 1 Exhaustion."
+		},
+
+		"the_voids_decay": {
+			"name": 	"The Void's Decay",
+			"desc": 	"Adds 1 Remorse to your Discard.",
+			"short": 	"Add 1 Remorse."
+		},
+
+		"i_serve_the_void": {
+			"name": 	"I Serve the Void",
+			"desc": 	"This enemy will die, healing the Void equal to this creature's remaining HP before doing so.",
+			"short": 	"Heal Void for remaining HP, then Die."
+		},
+
+		"let_me_protect_you": {
+			"name": 	"Let Me Protect You",
+			"desc": 	"Will give all Minions Fortitude equal to 20% of their max HP.",
+			"short": 	"20% Fortitude to all Minions."
+		},
+
+		"let_me_inspire_you": {
+			"name": 	"Let Me Inspire You",
+			"desc": 	"The Minion with the highest HP will gain Taunt 2.",
+			"short": 	"Grant highest HP\nminion Taunt 2."
+		},
+
+		"let_me_soothe_you": {
+			"name": 	"Let Me Soothe You",
+			"desc": 	"All Minions will be healed for 10% of their max HP.",
+			"short": 	"Heal Minions 10%."
+		},
+
+		"let_me_strengthen_you": {
+			"name": 	"Let Me Strengthen You",
+			"desc": 	"All Minions will gain +# AP.",
+			"short": 	"+# AP to all Minions."
+		},
+
+		"let_me_shelter_you": {
+			"name": 	"Let Me Shelter You",
+			"desc": 	"The Minion with the lowest HP will gain Evasive 2.",
+			"short": 	"Grant lowest HP\nMinion Evasive 2."
+		},
+
+		"the_void_corrupts": {
+			"name": 	"The Void Torments",
+			"desc": 	"Will apply Fear # and then Attacks.",
+			"short": 	"Apply Fear #,\nthen Attack."
+		},
+
+		"the_void_ignites": {
+			"name": 	"The Void Ignites",
+			"desc": 	"Will apply Burning # and then Attacks.",
+			"short": 	"Apply Burning #,\nthen Attack."
+		},
+
+		"the_void_reclaims": {
+			"name": 	"The Void Reclaims",
+			"desc": 	"Will apply Haunted # and then Attacks.",
+			"short": 	"Applies Haunted #,\nthen Attack."
+		},
+
+		"the_void_suffocates": {
+			"name": 	"The Void Suffocates",
+			"desc": 	"Will add # Bane(s) to your deck and then Attacks.",
+			"short": 	"Adds # Bane(s),\nthen Attack."
+		},
+
+		"the_void_overwhelms": {
+			"name": 	"The Void Overwhelms",
+			"desc": 	"Will apply Stun and Daze 1 and then Attacks.",
+			"short": 	"Apply Stun & Daze 1,\nthen Attack."
+		},
+
+		"the_void_weakens": {
+			"name": 	"The Void Weakens",
+			"desc": 	"Will apply Vulnerable # and then Attacks.",
+			"short": 	"Apply Vulnerable #,\nthen Attack."
+		},
+
+		"the_void_infects": {
+			"name": 	"The Void Infects",
+			"desc": 	"Will apply Poison # and then Attacks.",
+			"short": 	"Apply Poison #,\nthen Attack."
+		},
+
+		"the_void_decays": {
+			"name": 	"The Void Decays",
+			"desc": 	"Will apply Cripple 1 and then Attacks.",
+			"short": 	"Apply Cripple 1,\nthen Attack."
+		},
+
+		"scapegoat": {
+			"name": 	"Scapegoat",
+			"desc": 	"At the start of every turn, gains Taunt #. Reduces Taunt by 1 each time it's the target of an Attack card. ",
+			"short": 	"At the start of every turn, gains Taunt #. Reduces Taunt by 1 each time it's the target of an Attack card. "
+		},
+
+		"symbol_of_despair": {
+			"name": 	"Symbol of Despair",
+			"desc": 	"Will apply Fear 2.",
+			"short": 	"Apply Fear 2."
+		},
+
+		"symbol_of_nothingness": {
+			"name": 	"Symbol of Nothingness",
+			"desc": 	"Apply Hex 1 and Haunted 1.",
+			"short": 	"Apply Hex & Haunted 1."
+		},
+
+		"symbol_of_suffering": {
+			"name": 	"Symbol of Suffering",
+			"desc": 	"Will Attack, and then lose 2 AP (to a minimum of 1).",
+			"short": 	"Attack, then lose 2 AP."
+		},
+
+		"praise_the_void": {
+			"name": 	"Praise the Void",
+			"desc": 	"Will increase Effigy's AP by # and also heal it for 10% of its max HP.",
+			"short": 	"Effigy gains\n+# AP & heals 10%."
+		},
+
+		"embrace_despair": {
+			"name": 	"Embrace Despair",
+			"desc": 	"Increase AP by +#, and will then suffer Bleed 4.",
+			"short": 	"Gain +# AP.\nSuffers Bleed 4. "
+		},
+
+
+		"energized_attack": {
+			"name": 	"Energized Attack",
+			"desc": 	"Increase AP by #, then Attack.",
+			"short": 	"Gain +# AP.\nAttack."
+		},
+
+		"surging_magic": {
+			"name": 	"Surging Magic",
+			"desc": 	"Increase AP by +# and Fortitude equal to 10% of its Max HP.",
+			"short": 	"Gain +# AP.\n10% Fortitude."
+		},
+
+		"encircle": {
+			"name": 	"Encircle",
+			"desc": 	"Will inflict Fear # and Vulnerable 2."
+		},
+
+		"bathe_in_blood": {
+			"name": 	"Bathe in Blood",
+			"desc": 	"Will reduce Bleed by 50%, and then Heal equal to current Bleed value."
+		},
+
+		"my_loyal_following": {
+			"name": 	"My Loyal Following",
+			"desc": 	"Each time you draw a card that isn't a Void, you'll suffer # damage. If you draw a Bane, you'll suffer an additional 2 damage."
+		},
+
+		"if_i_could_walk": {
+			"name": 	"If I Could Walk I'd Kick Your...",
+			"desc": 	"Much to his frustration, this Creature will do nothing."
+		},
+
+		"communion": {
+			"name": 	"Communion Time",
+			"desc": 	"Will inflict # Banes."
+		},
+
+		"the_void_fills_us_all": {
+			"name": 	"The Void Fills Us All",
+			"desc": 	"Will gain 1 AP every turn and whenever negative conditions are reduced, they will tick down by #.\nWill always be Evasive whilst his Minions are alive."
+		},
+
+		"earth": {
+			"name": 	"Earth",
+			"desc": 	"Applies Stun #."
+		},
+
+		"fire": {
+			"name": 	"Fire",
+			"desc": 	"Applies Burning #."
+		},
+
+		"wind": {
+			"name": 	"Wind",
+			"desc": 	"You will Draw # cards. At the end of the turn, your hand will be discarded."
+		},
+
+		"water": {
+			"name": 	"Water",
+			"desc": 	"Inflicts # Dazes."
+		},
+
+		"beast_of_the_elements": {
+			"name": 	"Beast of the Elements",
+			"desc": 	"If you defeat this creature, its Arms will be defeated also."
+		},
+
+		"shield_wall": {
+			"name": 	"Shield Wall",
+			"desc": 	"All creatures gain Fortitude equal to 10% Max HP."
+		},
+
+		"consume_blood": {
+			"name": 	"Consume Blood",
+			"desc": 	"Will remove Bleed from all creatures, and inflict that much damage."
+		},
+
+
+
+	}
+
+
+}
