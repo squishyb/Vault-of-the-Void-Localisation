@@ -46,7 +46,7 @@
 	},
 
 	"difficulty_screen": {
-		"heading": 							"Card Mastery",
+		"heading": 							"Card Mastery"
 	},
 
 	"class_overview": {
@@ -134,7 +134,7 @@
 		"fatigue": {
 			"name": 	"Fatigue",
 			"desc": 	"Fatigue is added by, and benefits, Shii and Future Strike in killing enemies. Aside from those, some other cards or artifacts may also have effects they trigger when a target is Fatigued, or increase in potency based on the total number of Fatigue stacks on enemies."
-		},
+		}
 
 
 	},
@@ -146,12 +146,12 @@
 		"choice_1": 						"Receive a Booster Pack.",
 		"choice_2": 						"Gain an additional 25 max HP.",
 		"choice_3": 						"Gain 2 Random Void Stones.",
-		"choice_4": 						"Gain 2 Upgrade Points.",
+		"choice_4": 						"Gain 2 Upgrade Points."
 	},
 
 	"arkaos_choice": {
 		"header": 							"The Beast lies defeated before you...",
-		"body_text": 						"As you turn to leave you notice 4 beads laying on the floor, snapped free from the creatures necklace.",
+		"body_text": 						"As you turn to leave you notice 4 beads laying on the floor, snapped free from the creatures necklace."
 	},
 
 	"stances": {
@@ -185,7 +185,7 @@
 			"name": 	"Parry",
 			"desc": 	"[k]Block[/k] #d.",
 			"up_desc": 	"[k]Block[/k] [u]#d[/u].\n[u]Purge: Block 4.[/u]"
-		},
+		}
 	},
 
 	"mob_groups": {
@@ -223,7 +223,7 @@
 			"name": 	"Wicked Worshipers",
 			"desc": 	"In the damp, dark corners of the Vault, desperate souls will turn and swear devotion to the anything they sense may fill them with light. The Void is a crewl deity however - and the prayers of the few will often go unanswered.",
 			"tips":		"Keep an eye on the Effigy getting buffed up for a big hit while it keeps you from targeting Attacks on its supporting allies."
-		},
+		}
 	},
 
 	"monster_names": {
@@ -490,7 +490,7 @@
 		"consume_blood": {
 			"name": 	"Consume Blood",
 			"desc": 	"Will remove Bleed from all creatures, and inflict that much damage."
-		},
+		}
 
 
 
