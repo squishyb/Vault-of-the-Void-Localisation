@@ -134,7 +134,7 @@
 		"fatigue": {
 			"name": 	"Fatigue",
 			"desc": 	"Fatigue is added by, and benefits, Shii and Future Strike in killing enemies. Aside from those, some other cards or artifacts may also have effects they trigger when a target is Fatigued, or increase in potency based on the total number of Fatigue stacks on enemies."
-		},
+		}
 		
 
 	},
@@ -169,24 +169,1896 @@
 	},
 	
 	"cards": {
+		
 		"001": {
 			"name": 	"Slash",
-			"desc": 	"Deal #a damage.",
-			"up_desc": 	"Deal [u]#a[/u] damage."
-		},
-		
-		"002": {
+			"desc": "Deal #a damage.\n[k]Opener[/k]: If at [k]Combo[/k] 0, [k]Combo[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Opener[/k]: If at [k]Combo[/k] 0, [k]Combo[/k] 1."
+		  },
+		  "002": {
 			"name": 	"Smash",
-			"desc": 	"Deal #a damage. Gain 1 Strength.",
-			"up_desc": 	"Deal [u]#a[/u] damage. Gain 1 Strength."
-		},
-		
-		"010": {
+			"desc": "Deal #a damage 2 times. [k]Rage[/k] 25%.",
+			"up_desc": "Deal [u]#a[/u] damage 2 times. [k]Rage[/k] [u]50%[/u]."
+		  },
+		  "003": {
+			"name": "Crush",
+			"desc": "Deal #a damage 3 times. Gain 2 Strength.",
+			"up_desc": "Deal [u]#a[/u] damage 3 times. Gain 2 Strength."
+		  },
+		  "004": {
+			"name": "Concentrate",
+			"desc": "Gain 2 Energy.",
+			"up_desc": "[u]Overcharge 1.[/u]\nGain 2 Energy."
+		  },
+		  "005": {
+			"name": "Time to Maim",
+			"desc": "If you have no [k]Rage[/k], [k]Block[/k] #d.\n[k]Rage[/k] 50%.",
+			"up_desc": "If you have no [k]Rage[/k], [k]Block[/k] #d & [u]Rage 50%[/u].\n[k]Rage[/k] 50%."
+		  },
+		  "006": {
+			"name": "Shield Wall",
+			"desc": "[k]Block[/k] #d, equal to 15 plus 1 for each Ability played this turn.",
+			"up_desc": "[k]Block[/k] #d, equal to [u]18[/u] plus [u]2[/u] for each Ability played this turn."
+		  },
+		  "007": {
+			"name": "Bloodbath",
+			"desc": "Deal damage equal to [k]Threat[/k].",
+			"up_desc": "[u]Apply Vulnerable 1.[/u] Deal damage equal to [k]Threat[/k]."
+		  },
+		  "008": {
+			"name": "Counter",
+			"desc": "[k]Block[/k] 2 each time an Attack card is played.\n[k]Expel[/k].",
+			"up_desc": "[k]Block[/k] [u]3[/u] each time an Attack card is played.\n[k]Expel[/k]."
+		  },
+		  "009": {
+			"name": "Main Gauche",
+			"desc": "[k]Block[/k] #d.\nGain 1 [k]Volatile[/k] [i]Hidden Blade[/i][d].",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\nGain 1 [k]Volatile[/k] [i]Hidden Blade[/i][d]."
+		  },
+		  "010": {
 			"name": 	"Parry",
 			"desc": 	"[k]Block[/k] #d.",
 			"up_desc": 	"[k]Block[/k] [u]#d[/u].\n[u]Purge: Block 4.[/u]"
-		},
-	},
+		  },
+		  "011": {
+			"name": "Killing Blow",
+			"desc": "Deal #a damage.\nSuffer 1 [k]Daze[/k].",
+			"up_desc": "Deal [u]#a[/u] damage.\nSuffer 1 [k]Daze[/k]."
+		  },
+		  "012": {
+			"name": "Riposte",
+			"desc": "Deal #a damage.\n[k]Block[/k] @d.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Block[/k] [u]@d[/u]."
+		  },
+		  "013": {
+			"name": "Blessed Recovery",
+			"desc": "Heal 5. [k]Expel[/k].",
+			"up_desc": "Heal 5.\n[k]Expel[/k].\n[u]Purge: Heal 1.[/u]"
+		  },
+		  "014": {
+			"name": "Lacerations",
+			"desc": "Each time [k]Bleed[/k] triggers, it will increase by 2. [k]Expel[/k].",
+			"up_desc": "Each time [k]Bleed[/k] triggers, it will increase by 2. [u]Rigged.[/u] [k]Expel[/k]."
+		  },
+		  "015": {
+			"name": "Second Chance",
+			"desc": "Deal #a damage.\n[k]Slay[/k]: Draw 2. ",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Slay[/k]: Draw 2 [u]and gain 1 Energy[/u]. "
+		  },
+		  "016": {
+			"name": "Shield Bash",
+			"desc": "Apply [k]Vulnerable[/k] 2. [k]Block[/k] #d.",
+			"up_desc": "Apply [k]Vulnerable[/k] 2. [k]Block[/k] [u]#d[/u]."
+		  },
+		  "017": {
+			"name": "Battlecry",
+			"desc": "Apply [k]Weak[/k] 2 to all enemies.",
+			"up_desc": "Apply [k]Weak[/k] [u]& Slow[/u] 2 and to all enemies."
+		  },
+		  "018": {
+			"name": "For the Throat",
+			"desc": "Apply [k]Bleed[/k] #d.",
+			"up_desc": "Apply [k]Bleed[/k] [u]#d[/u]."
+		  },
+		  "019": {
+			"name": "Flaying Flesh",
+			"desc": "Deal #a damage.\nApply [k]Bleed[/k] @d.",
+			"up_desc": "Deal [u]#a[/u] damage.\nApply [k]Bleed[/k] @d."
+		  },
+		  "020": {
+			"name": "Bladestorm",
+			"desc": "Apply [k]Bleed[/k] #d to all enemies.",
+			"up_desc": "Apply [k]Bleed[/k] [u]#d[/u] to all enemies."
+		  },
+		  "021": {
+			"name": "Gusher",
+			"desc": "Add an amount of [k]Volatile[/k] [i]Hidden Blades[/i][d] equal to current Energy. [k]Expel[/k].",
+			"up_desc": "[u]Gain 1 Energy.[/u] Add an amount of [k]Volatile[/k] [i]Hidden Blades[/i][d] equal to current Energy. [k]Expel[/k]."
+		  },
+		  "022": {
+			"name": "On the Hunt",
+			"desc": "Apply Hunted. ",
+			"up_desc": "Apply Hunted. Deal #a damage to all enemies."
+		  },
+		  "023": {
+			"name": "Redo",
+			"desc": "[k]Recur[/k] 1 random card.\n[k]Expel[/k].",
+			"up_desc": "[k]Recur[/k] [u]2[/u] random cards.\n[k]Expel[/k]."
+		  },
+		  "024": {
+			"name": "Stalker",
+			"desc": "Deal #a damage. If the target has Hunted, this card costs 0 Energy.",
+			"up_desc": "Deal #a damage. If the target has Hunted, this card costs 0 Energy."
+		  },
+		  "025": {
+			"name": "Predator",
+			"desc": "Deal #a damage. If the target has Hunted, this card costs 0 Energy.",
+			"up_desc": "Deal #a damage. If the target has Hunted, this card costs 0 Energy."
+		  },
+		  "026": {
+			"name": "Recharge",
+			"desc": "[k]Recur[/k] 1.\n[k]Expel[/k].",
+			"up_desc": "[k]Recur[/k] 1."
+		  },
+		  "027": {
+			"name": "Juggle",
+			"desc": "Gain 1 [k]Volatile[/k] [i]Hidden Blade[/i][d].\nDraw 2. [k]Discard[/k] 2.",
+			"up_desc": "Gain 1 [k]Volatile[/k] [i]Hidden Blade[/i][d].\nDraw [u]3[/u]. [k]Discard[/k] [u]3[/u]."
+		  },
+		  "028": {
+			"name": "Draw Blood",
+			"desc": "Deal #a damage.\nApply [k]Bleed[/k] @d.",
+			"up_desc": "Deal [u]#a[/u] damage.\nApply [k]Bleed[/k] [u]@d[/u]."
+		  },
+		  "029": {
+			"name": "Sneak Attack",
+			"desc": "Deal #a damage an amount of times equal to target's [k]Frenzy[/k] value.",
+			"up_desc": "Deal [u]#a[/u] damage an amount of times equal to target's [k]Frenzy[/k] value."
+		  },
+		  "030": {
+			"name": "Trigger Phrase",
+			"desc": "[k]Rage[/k] 25%. Gain 1 [k]Volatile[/k] [i]Hidden Blade[/i][d].\n[k]Inert[/k].",
+			"up_desc": "[k]Rage[/k] 25%. Gain 1 [k]Volatile[/k] [i]Hidden Blade[/i][d].\n[k]Inert[/k]."
+		  },
+		  "031": {
+			"name": "Patient Hunter",
+			"desc": "Gain 2 Energy. If an enemy has Hunted, draw 2 cards.",
+			"up_desc": "Gain 2 Energy. If an enemy has Hunted, draw 3 cards."
+		  },
+		  "032": {
+			"name": "Natural Twenty",
+			"desc": "Apply [k]Vulnerable[/k] 2 to all enemies.",
+			"up_desc": "Apply [k]Vulnerable[/k] [u]4[/u] to all enemies."
+		  },
+		  "033": {
+			"name": "Leading Edge",
+			"desc": "Deal #a damage.\n[k]Opener[/k]: Gain 2 [k]Volatile[/k] [i]Hidden Blades[/i][d].",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Opener[/k]: Gain [u]3[/u] [k]Volatile[/k] [i]Hidden Blades[/i][d]."
+		  },
+		  "034": {
+			"name": "Fresh Steel",
+			"desc": "[k]Discard[/k] hand. Gain that many +1 [k]Volatile[/k] [i]Hidden Blades[/i][d].",
+			"up_desc": "[k]Discard[/k] hand. Gain that many [u]+2[/u] [k]Volatile[/k] [i]Hidden Blades[/i][d]."
+		  },
+		  "035": {
+			"name": "Blades Upon Blades",
+			"desc": "Deal #a damage.\nGain 1 [k]Volatile[/k] [i]Hidden Blade[/i][d].",
+			"up_desc": "Deal [u]#a[/u] damage.\nGain 1 [k]Volatile[/k] [i]Hidden Blade[/i][d]."
+		  },
+		  "036": {
+			"name": "Bulwark",
+			"desc": "Each turn, Draw 1 the first time a [k]Block[/k] card is played. [k]Expel[/k].",
+			"up_desc": "Each turn, Draw 1 the first time a [k]Block[/k] card is played. [k]Expel[/k]."
+		  },
+		  "037": {
+			"name": "Battleplan",
+			"desc": "Draw 2.\n[k]Discard[/k] 1.",
+			"up_desc": "Draw [u]3[/u].\n[k]Discard[/k] [u]2[/u]."
+		  },
+		  "038": {
+			"name": "Mithril Blades",
+			"desc": "All [i]Hidden Blades[/i] and [i]Silent Shivs[/i] will [k]Trigger[/k] +1.\n[k]Expel[/k].",
+			"up_desc": "All [i]Hidden Blades[/i] and [i]Silent Shivs[/i] will [k]Trigger[/k] [u]+2[/u].\n[k]Expel[/k]."
+		  },
+		  "039": {
+			"name": "Aggressive Attack",
+			"desc": "Deal #a damage. Apply [k]Vulnerable[/k] 1.\n[k]Recur[/k] a random Attack.",
+			"up_desc": "Deal [u]#a[/u] damage. Apply [k]Vulnerable[/k] [u]2[/u].\n[k]Recur[/k] a random Attack."
+		  },
+		  "040": {
+			"name": "Defensive Attack",
+			"desc": "Deal #a damage.\n[k]Block[/k] @d.\n[k]Delay Block[/k] @d.",
+			"up_desc": "Deal #a damage.\n[k]Block[/k] [u]@d[/u].\n[k]Delay Block[/k] [u]@d[/u]."
+		  },
+		  "041": {
+			"name": "Stiletto",
+			"desc": "Deal #a damage.\n[k]Balanced.[/k]",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Balanced.[/k]"
+		  },
+		  "042": {
+			"name": "Vicious Attack",
+			"desc": "Deal #a damage. Apply [k]Vulnerable[/k] 2. ",
+			"up_desc": "Deal #a damage. Apply [k]Vulnerable[/k] 2."
+		  },
+		  "043": {
+			"name": "Destruction",
+			"desc": "Deal #a damage.",
+			"up_desc": "Deal #a damage."
+		  },
+		  "044": {
+			"name": "Supernova",
+			"desc": "Deal #a damage to all enemies.\n[k]Slay[/k]: [k]Overcharge[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage to all enemies.\n[k]Slay[/k]: [k]Overcharge[/k] [u]2[/u]."
+		  },
+		  "045": {
+			"name": "Bide",
+			"desc": "[k]Block[/k] #d.\n[k]Combo[/k] 2.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Combo[/k] 2."
+		  },
+		  "046": {
+			"name": "Scatter Shot",
+			"desc": "Deal #a damage to all enemies.\nApply [k]Bleed[/k] 4 to all enemies.",
+			"up_desc": "Deal [u]#a[/u] damage to all enemies.\nApply [k]Bleed[/k] [u]6[/u] to all enemies."
+		  },
+		  "047": {
+			"name": "Opportunist",
+			"desc": "Deal #a damage, or @a if the target is [k]Bleeding[/k], to all enemies.",
+			"up_desc": "Deal [u]#a[/u] damage, or [u]@a[/u] if the target is [k]Bleeding[/k], to all enemies."
+		  },
+		  "048": {
+			"name": "Dueling Buckler",
+			"desc": "[k]Block[/k] #d.\n[k]Balanced[/k]. [k]Inert[/k].",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Balanced[/k]. [k]Inert[/k]."
+		  },
+		  "049": {
+			"name": "Preparation",
+			"desc": "The next card played this turn costs 0 Energy.",
+			"up_desc": "[u]Draw 1.[/u]\nThe next card played this turn costs 0 Energy."
+		  },
+		  "050": {
+			"name": "Rinse and Repeat",
+			"desc": "[k]Recur[/k] the top card.",
+			"up_desc": "[k]Recur[/k] the top card.\n[u]Overcharge 1.[/u]"
+		  },
+		  "051": {
+			"name": "Snipe",
+			"desc": "Deal #a damage.\n[k]Slay[/k]: Gain 3 Energy.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Slay[/k]: Gain 3 Energy."
+		  },
+		  "052": {
+			"name": "Do Over",
+			"desc": "Deal #a damage. [k]Recur[/k] 1 random non-[k]Affliction[/k].",
+			"up_desc": "Deal [u]#a[/u] damage. [k]Recur[/k] 1 random non-[k]Affliction[/k]."
+		  },
+		  "053": {
+			"name": "Soul Consume",
+			"desc": "Apply Leech to all enemies. ",
+			"up_desc": "Apply Leech 2 to all enemies. "
+		  },
+		  "054": {
+			"name": "[k]Swift[/k] Strike",
+			"desc": "Deal #a damage.\n[k]Combo[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\n [k]Combo[/k] 1."
+		  },
+		  "055": {
+			"name": "Malleable Soul",
+			"desc": "Deal #a damage. If the target has Leech, this card triggers an additional time.",
+			"up_desc": "Deal #a damage. If the target has Leech, this card triggers an additional time."
+		  },
+		  "056": {
+			"name": "Sustenance",
+			"desc": " [k]Block[/k] #d. Apply [k]Bleed[/k] 2 to a random enemy.\n[k]Rebound[/k].",
+			"up_desc": " [k]Block[/k] [u]#d[/u]. Apply [k]Bleed[/k] [u]3[/u] to a random enemy.\n[k]Rebound[/k]."
+		  },
+		  "057": {
+			"name": "Crimson Slaughter",
+			"desc": "Trigger all [k]Bleed[/k].",
+			"up_desc": "[u]All enemies with Bleed suffer Vulnerable 2.[/u] Trigger all [k]Bleed[/k]."
+		  },
+		  "058": {
+			"name": "Devour Them",
+			"desc": "Deal #a damage. Apply Leech.",
+			"up_desc": "Deal #a damage. Apply Leech."
+		  },
+		  "059": {
+			"name": "Sanguine Shell",
+			"desc": "[k]Block[/k] #d. Trigger all [k]Bleed[/k]. [k]Expel[/k].",
+			"up_desc": "[k]Block[/k] #d. Trigger all [k]Bleed[/k]. [k]Expel[/k].\n[u]Purge: Block @d.[/u]"
+		  },
+		  "060": {
+			"name": "All In",
+			"desc": "Apply [k]Foresight[/k] to all cards until the end of the turn. Suffer [k]Vulnerable[/k] 2. [k]Expel[/k].",
+			"up_desc": "Apply [k]Foresight[/k] to all cards until the end of the turn. Suffer [k]Vulnerable[/k] 2."
+		  },
+		  "061": {
+			"name": "Leverage",
+			"desc": "Gain 2 Energy if an enemy is currently Hunted",
+			"up_desc": "Gain 2 Energy if an enemy is currently Hunted. Draw 1."
+		  },
+		  "062": {
+			"name": "Smoke Bomb",
+			"desc": "At the start of each turn, gain 1 [k]Volatile[/k] [i]Hidden Blade[/i].\n[k]Expel[/k].",
+			"up_desc": "At the start of each turn, gain [u]2[/u] [k]Volatile[/k] [i]Hidden Blades[/i].\n[k]Expel[/k]."
+		  },
+		  "063": {
+			"name": "Ice Wall",
+			"desc": "Reduce [k]Threat[/k] to 0. [k]Expel[/k].\n[k]Purge[/k]: [k]Block[/k] #d. ",
+			"up_desc": "Reduce [k]Threat[/k] to 0. [k]Expel[/k].\n[k]Purge[/k]: [k]Block[/k] [u]#d[/u]. "
+		  },
+		  "064": {
+			"name": "All Alone?",
+			"desc": "Deal #a damage.\n[k]Solo:[/k] [k]Trigger[/k] +2. ",
+			"up_desc": "Deal #a damage.\n[k]Solo:[/k] [k]Trigger[/k] +[u]3[/u]. "
+		  },
+		  "065": {
+			"name": "Magic Missile",
+			"desc": "Deal #a damage. Inflict @a damage to each neighbour. ",
+			"up_desc": "Deal #a damage. Inflict @a damage to each neighbour. "
+		  },
+		  "066": {
+			"name": "Focus",
+			"desc": "Gain 1 Energy for the next 3 [k]Swift[/k] cards played. [k]Expel[/k].",
+			"up_desc": "Gain 1 Energy for the next 3 [k]Swift[/k] cards played."
+		  },
+		  "067": {
+			"name": "Enough Suffering",
+			"desc": "[k]Expel[/k] all [k]Afflictions[/k].\n[k]Expel[/k].\n[k]Purge[/k]: Heal 1.",
+			"up_desc": "[k]Expel[/k] all [k]Afflictions[/k].\n[u]Heal 4[/u]. [k]Expel[/k].\n[k]Purge[/k]: Heal [u]2[/u]."
+		  },
+		  "068": {
+			"name": "Sleight of Hand",
+			"desc": "When you [k]Discard[/k], [k]Destroy[/k] or [k]Expel[/k] a card, deal 3 damage to a random enemy. [k]Expel[/k].",
+			"up_desc": "When you [k]Discard[/k], [k]Destroy[/k] or [k]Expel[/k] a card, deal [u]5[/u] damage to a random enemy. [k]Expel[/k]."
+		  },
+		  "069": {
+			"name": "Turn the Tide",
+			"desc": "Deal #a damage an amount of times ($) equal to the number of cards in Discard. ",
+			"up_desc": "Deal [u]#a[/u] damage an amount of times ($) equal to the number of cards in Discard. "
+		  },
+		  "070": {
+			"name": "Backup",
+			"desc": "Gain 3 [k]Volatile[/k] [i]Light It Up[/i]. [k]Expel[/k]. ",
+			"up_desc": "Gain [u]5[/u] [k]Volatile[/k] [i]Light It Up[/i]. [k]Expel[/k].\n[u]Purge: Gain 1 Volatile Light It Up.[/u]"
+		  },
+		  "071": {
+			"name": "Reinforcements",
+			"desc": "Gain 3 [k]Volatile[/k] [i]Smash[/i]. [k]Expel[/k].",
+			"up_desc": "Gain 3 [k]Volatile[/k] [i]Smash[/i]. [k]Expel[/k].\n[u]Purge: Gain 1 Volatile Smash.[/u]"
+		  },
+		  "072": {
+			"name": "The Cavalry",
+			"desc": "Add 3 [k]Volatile[/k] Crush cards to your hand. [k]Expel[/k].",
+			"up_desc": "Add 3 [k]Volatile[/k] Crush cards to your hand. [k]Expel[/k]. If [k]Purged[/k], add 1 [k]Volatile[/k] Crush."
+		  },
+		  "073": {
+			"name": "Hunters Mark",
+			"desc": "Apply Hunted & [k]Vulnerable[/k] 2.",
+			"up_desc": "Apply Hunted & [k]Vulnerable[/k] 2."
+		  },
+		  "074": {
+			"name": "Body and Mind",
+			"desc": "Swap your current Energy and Strength values.",
+			"up_desc": "[u]Gain 1 Energy[/u]. Swap your current Energy and Strength values."
+		  },
+		  "075": {
+			"name": "Nick",
+			"desc": "Apply [k]Bleed[/k] 3.\nDraw 1.",
+			"up_desc": "Apply [k]Bleed[/k] [u]5[/u].\nDraw 1."
+		  },
+		  "076": {
+			"name": "Surefoot",
+			"desc": "[k]Block[/k] #d.\n[k]Rage[/k] 25%.",
+			"up_desc": "[k]Block[/k] #d.\n[k]Rage[/k] 25%.\n[u]Rebound.[/u]"
+		  },
+		  "077": {
+			"name": "Brace",
+			"desc": "[k]Block[/k] #d.\n[k]Opener[/k]: Gain 2 Dexterity.",
+			"up_desc": "[k]Block[/k] #d.\n[k]Opener[/k]: Gain 3 Dexterity."
+		  },
+		  "078": {
+			"name": "Messy Spitroast",
+			"desc": "This turn, when a Hunted enemy is destroyed, reduce your [k]Threat[/k] to 0.",
+			"up_desc": "This turn, when a Hunted enemy is destroyed, reduce [k]Threat[/k] to 0. Draw 1."
+		  },
+		  "079": {
+			"name": "Puncture",
+			"desc": "This turn, when an enemy takes damage, apply [k]Bleed[/k] 1. Add 1 [k]Volatile[/k] [i]Hidden Blade[/i].",
+			"up_desc": "This turn, when an enemy takes damage, apply [k]Bleed[/k] 1. Add [u]2[/u] [k]Volatile[/k] [i]Hidden Blade[/i]."
+		  },
+		  "080": {
+			"name": "Stagger",
+			"desc": "[k]Block[/k] #d. Suffer 1 [k]Daze[/k].",
+			"up_desc": "[k]Block[/k] #d. Suffer 1 [k]Daze[/k]."
+		  },
+		  "081": {
+			"name": "Overwhelm",
+			"desc": "[k]Block[/k] #d.\nAdd 2 [k]Banes[/k] to Discard pile.",
+			"up_desc": "[k]Block[/k] #d.\nAdd [u]1[/u] [k]Bane[/k] to Discard pile."
+		  },
+		  "082": {
+			"name": "Swift Hand",
+			"desc": "This turn, all [k]Swift[/k] Attack cards [k]Trigger[/k] +1. [k]Expel[/k].",
+			"up_desc": "This turn, all [k]Swift[/k] Attack cards [k]Trigger[/k] +1. [u]Draw 1.[/u] [k]Expel[/k]."
+		  },
+		  "083": {
+			"name": "Scent of Blood",
+			"desc": "Gain 1 Energy for each [k]Bleeding[/k] enemy.",
+			"up_desc": "[u]Block #d.[/u]\nGain 1 Energy for each [k]Bleeding[/k] enemy."
+		  },
+		  "084": {
+			"name": "Gains",
+			"desc": "Double your Strength. Suffer [k]Vulnerable[/k] 2. [k]Expel[/k]",
+			"up_desc": "Double your Strength. [k]Expel[/k]"
+		  },
+		  "085": {
+			"name": "Quickness",
+			"desc": "[k]Combo[/k] 1.",
+			"up_desc": "[k]Combo[/k] 1."
+		  },
+		  "086": {
+			"name": "Deep Cuts",
+			"desc": "Increases target's [k]Bleed[/k] by 50% ($).",
+			"up_desc": "Increases target's [k]Bleed[/k] by [u]75[/u]% ($)."
+		  },
+		  "087": {
+			"name": "Unrelenting",
+			"desc": "Deal #a damage.\n[k]Combo[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Combo[/k] 1."
+		  },
+		  "088": {
+			"name": "Tower Shield",
+			"desc": "[k]Block[/k] #d. [k]Expel[/k].",
+			"up_desc": "[k]Block[/k] #d.\n[k]Expel[/k].\n[u]Purge: Delay Block 5.[/u]"
+		  },
+		  "089": {
+			"name": "Imprint",
+			"desc": "Add 2 [k]Volatile[/k] copies of the next Attack played to hand. [k]Expel[/k].",
+			"up_desc": "Add [u]3[/u] [k]Volatile[/k] copies of the next Attack played to hand. [k]Expel[/k]."
+		  },
+		  "090": {
+			"name": "Reload",
+			"desc": "Draw 2.\n[k]Discard[/k] 2.\n[k]Overcharge[/k] 1.",
+			"up_desc": "Draw [u]3[/u].\n[k]Discard[/k] [u]3[/u].\n[k]Overcharge[/k] 1."
+		  },
+		  "091": {
+			"name": "Now We Wait",
+			"desc": "[k]Discard[/k] 1. Add 2 copies of the Discarded card to the discard pile. [k]Expel[/k].",
+			"up_desc": "[k]Discard[/k] 1. Add [u]4[/u] copies of the Discarded card to the discard pile. [k]Expel[/k]."
+		  },
+		  "092": {
+			"name": "Who's Next?",
+			"desc": "Apply Hunted. This turn, when an enemy is destroyed, all other enemies gain [k]Weak[/k]en 2.",
+			"up_desc": "Apply Hunted. This turn, when an enemy is destroyed, all other enemies gain [k]Weak[/k]en 2."
+		  },
+		  "093": {
+			"name": "Maneuver",
+			"desc": "[k]Block[/k] #d.\nDraw 1.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\nDraw 1."
+		  },
+		  "094": {
+			"name": "Duck and Weave",
+			"desc": "[k]Block[/k] #d.\n[k]Sift[/k] 1.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Sift[/k] 1."
+		  },
+		  "095": {
+			"name": "Knockdown",
+			"desc": "All enemies gain [k]Vulnerable[/k] 2.\n[k]Discard[/k] 1. ",
+			"up_desc": "All enemies gain [k]Vulnerable[/k] 2."
+		  },
+		  "096": {
+			"name": "Tactics",
+			"desc": "If this card has a Void Stone, draw all cards from your deck which contain a matching Void Stone. ",
+			"up_desc": "If this card has a Void Stone, draw all cards which contain a matching Void Stone. Gain 1 Energy."
+		  },
+		  "097": {
+			"name": "Hidden Blade",
+			"desc": "Deal #a damage. [k]Balanced[/k].\n[k]Inert[/k].",
+			"up_desc": "Deal #a damage. [k]Balanced[/k].\n[k]Inert[/k]. [u]Rebound[/u]."
+		  },
+		  "098": {
+			"name": "Oversized Backpack",
+			"desc": "Draw 3. If an Attack is drawn, gain 1 Energy. You can no longer Draw this turn. ",
+			"up_desc": "Draw 3. If an Attack is drawn, gain [u]2[/u] Energy. You can no longer Draw this turn. "
+		  },
+		  "099": {
+			"name": "Kneecaps",
+			"desc": "Apply [k]Weak[/k] 2.",
+			"up_desc": "Apply [k]Weak[/k] [u]4.[u]"
+		  },
+		  "100": {
+			"name": "Quick Attack",
+			"desc": "Apply [k]Weak[/k] 1 and [k]Slow[/k] 1",
+			"up_desc": "Apply [k]Weak[/k] 2 and [k]Slow[/k] 2."
+		  },
+		  "101": {
+			"name": "Surging Strike",
+			"desc": "Deal #a damage. Gain [k]Overcharged[/k].",
+			"up_desc": "Deal #a damage. Gain [k]Overcharged[/k]."
+		  },
+		  "102": {
+			"name": "Power Strike",
+			"desc": "Deal #a damage.\nIf you have [k]Overcharge[/k], deal another @a damage. ",
+			"up_desc": "Deal #a damage.\nIf you have [k]Overcharge[/k], deal another [u]@a[/u] damage. "
+		  },
+		  "103": {
+			"name": "Crippling Blow",
+			"desc": "Deal #a damage.\nApply [k]Slow[/k] 2.",
+			"up_desc": "Deal [u]#a[/u] damage.\nApply [k]Slow[/k] 2 and \n[u] Weak 2.[/u]"
+		  },
+		  "104": {
+			"name": "Momentum",
+			"desc": "Deal #a damage X ($) times. X is equal to Strength. ",
+			"up_desc": "Deal #a damage X ($) times. X is equal to Strength. "
+		  },
+		  "105": {
+			"name": "Opening Move",
+			"desc": "Deal #a damage.\n[k]Opener[/k]: Gain 1 Energy.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Opener[/k]: Gain 1 Energy."
+		  },
+		  "106": {
+			"name": "Light It Up",
+			"desc": "Deal #a damage. [k]Overcharge[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage. [k]Overcharge[/k] 1."
+		  },
+		  "107": {
+			"name": "Planned Strike",
+			"desc": "Deal #a damage.\nIf you have [k]Overcharge[/k], Draw 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\nIf you have [k]Overcharge[/k], Draw [u]2[/u]."
+		  },
+		  "108": {
+			"name": "Givin' it All",
+			"desc": "Deal #a damage. If [k]Overcharged[/k], gain 2 Strength.",
+			"up_desc": "Deal #a damage. If [k]Overcharged[/k], gain 2 Strength."
+		  },
+		  "109": {
+			"name": "Wound",
+			"desc": "Deal #a damage.\nApply [k]Vulnerable[/k] 2. ",
+			"up_desc": "Deal [u]#a[/u] damage.\nApply [k]Vulnerable[/k] [u]3[/u]. "
+		  },
+		  "110": {
+			"name": "Repeated Strike",
+			"desc": "Deal #a damage.\n[k]Clone[/k].",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Clone[/k]."
+		  },
+		  "111": {
+			"name": "Suit Up",
+			"desc": "[k]Block[/k] #d 2 times.\nGain 2 Strength. ",
+			"up_desc": "[k]Block[/k] [u]#d[/u] 2 times.\nGain [u]3[/u] Strength."
+		  },
+		  "112": {
+			"name": "Grapeshot",
+			"desc": "Deal #a damage to a random enemy 6 times.\n[k]Purge[/k]: [k]Set Up[/k] next [k]Swift[/k] card played.",
+			"up_desc": "Deal #a damage to a random enemy [u]8[/u] times.\n[k]Purge[/k]: [k]Set Up[/k] next [k]Swift[/k] card played."
+		  },
+		  "113": {
+			"name": "Two Hand Swing",
+			"desc": "Deal #a damage. If Strength is at least 2, this will trigger an additional 2 times.",
+			"up_desc": "Deal #a damage. If Strength is at least 2, this will trigger an additional 3 times."
+		  },
+		  "114": {
+			"name": "Yin Yang",
+			"desc": "Deal #a damage.\nIf you have [k]Overcharge[/k], [k]Trigger[/k] +1.",
+			"up_desc": "Deal [u]#a[/u] damage.\nIf you have [k]Overcharge[/k], [k]Trigger[/k] +1."
+		  },
+		  "115": {
+			"name": "Charged Block",
+			"desc": "[k]Block[/k] #d.\nIf you have [k]Overcharge[/k], gain 1 Energy and [k]Overcharge[/k] 1.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\nIf you have [k]Overcharge[/k], gain 1 Energy and [k]Overcharge[/k] 1."
+		  },
+		  "116": {
+			"name": "Building Steam",
+			"desc": "When you play a [k]Swift[/k] card, deal 2 damage to a random enemy. [k]Expel[/k].",
+			"up_desc": "When you play a [k]Swift[/k] card, deal [u]3[/u] damage to a random enemy. [k]Expel[/k]."
+		  },
+		  "117": {
+			"name": "Quick Escape",
+			"desc": "[k]Block[/k] #d.\n[k]Discard[/k]: [k]Block[/k] @d.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Discard[/k]: [k]Block[/k] [u]@d[/u]."
+		  },
+		  "118": {
+			"name": "Rain Check",
+			"desc": "If this is the first card played, discard all other cards and draw that many.",
+			"up_desc": "If this is the first card played, discard all other cards and draw that many. If [k]Purge[/k]d, Draw 1."
+		  },
+		  "119": {
+			"name": "Enemy Intel",
+			"desc": "This turn, after an Attack is played against an enemy, they suffer [k]Vulnerable[/k] 1.",
+			"up_desc": "This turn, after an Attack is played against an enemy, they suffer [k]Vulnerable[/k] 1."
+		  },
+		  "120": {
+			"name": "Footwork",
+			"desc": "[k]Block[/k] #d.\n[k]Delay Block[/k] @d.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Delay Block[/k] [u]@d[/u]."
+		  },
+		  "121": {
+			"name": "Hidden Vial ",
+			"desc": "[k]Block[/k] #d. Heal 2.",
+			"up_desc": "[k]Block[/k] #d. Heal 2."
+		  },
+		  "122": {
+			"name": "Human Shield",
+			"desc": "Apply Hunted. [k]Block[/k] #d",
+			"up_desc": "Apply Hunted. [k]Block[/k] #d"
+		  },
+		  "123": {
+			"name": "Insult to Injury",
+			"desc": "For the rest of the fight, each time you damage a Hunted enemy, [k]Block[/k] #d. [k]Expel[/k]",
+			"up_desc": "For the rest of the fight, each time you damage a Hunted enemy, [k]Block[/k] #d. [k]Expel[/k]"
+		  },
+		  "124": {
+			"name": "Enough",
+			"desc": "[k]Block[/k] #d.\n[k]Overcharge[/k] 1. ",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Overcharge[/k] [u]2[/u]."
+		  },
+		  "125": {
+			"name": "Zig Zag",
+			"desc": "[k]Block[/k] & [k]Delay Block[/k] $, equal to half the number of cards in Discard.",
+			"up_desc": "[k]Block[/k] $, [u]twice[/u], & [k]Delay Block[/k] $, equal to half the number of cards in Discard."
+		  },
+		  "126": {
+			"name": "Side Step ",
+			"desc": "[k]Block[/k] $, equal to twice your Energy.",
+			"up_desc": "[u]Gain 1 Energy.[/u]\n[k]Block[/k] $, equal to twice your Energy."
+		  },
+		  "127": {
+			"name": "Furious Assault",
+			"desc": "Deal $ damage, equal to #a plus @a for each Attack played this turn.",
+			"up_desc": "Deal [u]$[/u] damage, equal to [u]#a[/u] plus [u]@a[/u] for each Attack played this turn"
+		  },
+		  "128": {
+			"name": "Arcane Overload",
+			"desc": "Deal $ damage, equal to #a plus @a for each Ability played this turn.",
+			"up_desc": "Deal $ damage, equal to [u]#a[/u] plus [u]@a[/u] for each Ability played this turn."
+		  },
+		  "129": {
+			"name": "One-Hit Wonder",
+			"desc": "Deal #a damage, [k]X[/k] times. [k]Expel[/k].",
+			"up_desc": "Deal [u]#a[/u] damage, [k]X[/k] times. [k]Expel[/k]."
+		  },
+		  "130": {
+			"name": "Frenzy",
+			"desc": "Deal #a damage. Gain 6 threat. ",
+			"up_desc": "Deal #a damage. Gain 3 threat. "
+		  },
+		  "131": {
+			"name": "Discovery",
+			"desc": "Put a card from deck into your hand.\n[k]Expel[/k].",
+			"up_desc": "Put a card from deck into your hand."
+		  },
+		  "132": {
+			"name": "Unload",
+			"desc": "Deal #a damage.\n[k]Sift[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Sift[/k] 1."
+		  },
+		  "133": {
+			"name": "Consume Life ",
+			"desc": "Deal #a damage. Apply Leech.",
+			"up_desc": "Deal #a damage. Apply Leech."
+		  },
+		  "134": {
+			"name": "Release the Demon ",
+			"desc": "Suffer 5 threat. All enemies gain Leech. ",
+			"up_desc": "Suffer 5 threat. All enemies gain Leech and suffer #a damage."
+		  },
+		  "135": {
+			"name": "",
+			"desc": "If an enemy has Leech, [k]Block[/k] #d. Otherwise, [k]Block[/k] @d. ",
+			"up_desc": "If an enemy has Leech, [k]Block[/k] #d. Otherwise, [k]Block[/k] @d. "
+		  },
+		  "136": {
+			"name": "Bleed It Out",
+			"desc": "Trigger target's [k]Bleed[/k]. [k]Expel[/k].",
+			"up_desc": "Trigger target's [k]Bleed[/k]. [k]Expel[/k].\n[u]Purge: Apply Bleed 2 to all enemies.[/u] "
+		  },
+		  "137": {
+			"name": "Roll the Dice",
+			"desc": "Chosen randomly:\nDeal #a damage.\nDeal #a damage to all.\nGain 10 [k]Threat[/k].",
+			"up_desc": "Chosen randomly:\nDeal #a damage.\nDeal #a damage to all.\nGain 15 [k]Threat[/k]."
+		  },
+		  "141": {
+			"name": "Switchblade",
+			"desc": "Deal #a damage.",
+			"up_desc": "Deal #a damage."
+		  },
+		  "142": {
+			"name": "Hide",
+			"desc": "This turn, your [k]Threat[/k] stack won't trigger. [k]Expel[/k].\n[k]Purge[/k]: [k]Delay Block[/k] 3.",
+			"up_desc": "This turn, your [k]Threat[/k] stack won't trigger. [k]Expel[/k].\n[k]Purge[/k]: [k]Delay Block[/k] [u]6[/u]."
+		  },
+		  "143": {
+			"name": "Medical kit",
+			"desc": "Decrease all conditions by 1.",
+			"up_desc": "Decrease all conditions by 2."
+		  },
+		  "144": {
+			"name": "Steel and Sulphur",
+			"desc": "Deal damage equal to twice the targets Fortitude.",
+			"up_desc": "Deal damage equal to twice the targets Fortitude. Apply [k]Slow[/k] 2."
+		  },
+		  "145": {
+			"name": "Coagulate",
+			"desc": "Remove [k]Bleed[/k] from all enemies. Inflict [k]Bleed[/k] to target, equal to total [k]Bleed[/k] removed.",
+			"up_desc": "Remove [k]Bleed[/k] from all enemies. Inflict [k]Bleed[/k] to target, equal to total [k]Bleed[/k] removed."
+		  },
+		  "146": {
+			"name": "Harness the Flame",
+			"desc": "For this turn, all card types reduce Burning.",
+			"up_desc": "For this turn, all card types reduce Burning by 2."
+		  },
+		  "147": {
+			"name": "Ignite",
+			"desc": "Deal X damage to all enemies. X is equal to your burning value.",
+			"up_desc": "Deal X damage to all enemies. X is equal to your burning value. Reduce burning by 2."
+		  },
+		  "148": {
+			"name": "Sword and Shield",
+			"desc": "Deal damage (#) equal to [k]Block[/k] played this turn.",
+			"up_desc": "Deal damage (#) equal to [k]Block[/k] played this turn. Shuffle a [k]Temporary[/k] Switchblade into your deck."
+		  },
+		  "149": {
+			"name": "Seeing Red",
+			"desc": "[k]Rage[/k] 150%.\n[k]Expel[/k].\n[k]Discard[/k]: [k]Rage[/k] 25%.",
+			"up_desc": "[k]Rage[/k] [u]200[/u]%.\n[k]Expel[/k].\n[k]Discard[/k]: [k]Rage[/k] [u]50%[/u]."
+		  },
+		  "150": {
+			"name": "Sever Soul",
+			"desc": "Apply [k]Weak[/k] 1.\n[k]Rebound[/k].\n[k]Discard[/k]: Draw & [k]Discard[/k] 1.",
+			"up_desc": "Apply [k]Weak[/k] [u]2[/u].\n[k]Rebound[/k].\n[k]Discard[/k]: Draw & [k]Discard[/k] 1."
+		  },
+		  "151": {
+			"name": "Grasp",
+			"desc": "Deal #a damage.\n[k]Soultithe[/k] 1.\n[k]Threshold[/k] 7: Deal 50% (%) [k]Corruption[/k] damage.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Soultithe[/k] 1.\n[k]Threshold[/k] [u]5[/u]: Deal 50% (%) [k]Corruption[/k] damage."
+		  },
+		  "152": {
+			"name": "Jab",
+			"desc": "Deal #a damage.\nDraw 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\nDraw 1."
+		  },
+		  "153": {
+			"name": "Backpedal",
+			"desc": "Deal #a damage.\n[k]Sift[/k] 1.\n[k]Rebound[/k].",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Sift[/k] 1.\n[k]Rebound[/k]."
+		  },
+		  "154": {
+			"name": "Surprise Attack",
+			"desc": "Deal #a damage. If the target isn't [k]Attacking[/k], deal another @a.",
+			"up_desc": "Deal [u]#a[/u] damage. If the target isn't [k]Attacking[/k], deal another [u]@a[/u]."
+		  },
+		  "155": {
+			"name": "Underhanded Tactics",
+			"desc": "Deal #a damage. If the target is [k]Attacking[/k], apply [k]Weak[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage. If the target is [k]Attacking[/k], apply [k]Weak[/k] 1 [u]and [k]Vulnerable[/k] 1.[/u]"
+		  },
+		  "156": {
+			"name": "Void Kiss",
+			"desc": "Gain 4 [k]Corruption[/k].\n[k]Expel[/k].",
+			"up_desc": "Gain [u]5[/u] [k]Corruption[/k]. [u]Rigged.[/u]\n[k]Expel[/k]."
+		  },
+		  "157": {
+			"name": "Unleash Darkness",
+			"desc": "Deal 75% (%) [k]Corruption[/k] damage.\n[k]Discard[/k]: Gain 1 Corruption.",
+			"up_desc": "Deal [u]100%[/u] (%) [k]Corruption[/k] damage.\n[k]Discard[/k]: Gain 1 Corruption."
+		  },
+		  "158": {
+			"name": "A Little Darkness",
+			"desc": "Gain 1 [k]Corruption[/k]. [k]Rebound[/k].",
+			"up_desc": "Gain [u]2[/u] [k]Corruption[/k]. [k]Rebound[/k]."
+		  },
+		  "159": {
+			"name": "My Father's Curse",
+			"desc": "Deal 50% (%) [k]Corruption[/k] damage.\n[k]Recur[/k] 1. [k]Rebound[/k].",
+			"up_desc": "Deal [u]75[/u]% (%) [k]Corruption[/k] damage.\n[k]Recur[/k] 1. [k]Rebound[/k]."
+		  },
+		  "160": {
+			"name": "Self-Restraint",
+			"desc": "[k]Block[/k] #d.\nReduce [k]Soultithe[/k] by up to 4, [k]Block[/k] @d for each.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\nReduce [k]Soultithe[/k] by up to [u]5[/u], [k]Block[/k] @d for each."
+		  },
+		  "161": {
+			"name": "Jewel of the Void",
+			"desc": "If this card has a Void Stone, [k]Trigger[/k] +2.",
+			"up_desc": "If this card has a Void Stone, [k]Trigger[/k] +2.\n[u]Delay Block #d[/u]."
+		  },
+		  "162": {
+			"name": "Stranger Tides"
+		  },
+		  "163": {
+			"name": "Soultax",
+			"desc": "Deal 50% (%) [k]Corruption[/k] damage.\n[k]Soultithe[/k] 1.",
+			"up_desc": "Deal 50% (%) [k]Corruption[/k] damage.\n[k]Soultithe[/k] 1.\n[u]Rage 25%.[/u]"
+		  },
+		  "164": {
+			"name": "Null and Void",
+			"desc": "Deal 100% (%) [k]Corruption[/k] damage.\n[k]Sift[/k] 2.",
+			"up_desc": "Deal 100% (%) [k]Corruption[/k] damage.\n[u]Sift 2 random Affliction Cards.[/u]\n[k]Sift[/k] 2."
+		  },
+		  "165": {
+			"name": "Separated Soul",
+			"desc": "Deal 200% (%) [k]Corruption[/k] damage.\nSet [k]Corruption[/k] to 0. ",
+			"up_desc": "Deal [u]300[/u]% (%) [k]Corruption[/k] damage.\nSet [k]Corruption[/k] to 0.\n[u]Discard: Gain 1 Corruption.[/u]"
+		  },
+		  "166": {
+			"name": "Inconsequential",
+			"desc": "[k]Sift[/k] 1. [k]Block[/k] $, equal the number of cards in Discard.",
+			"up_desc": "[k]Sift[/k] [u]3[/u]. [k]Block[/k] $, equal the number of cards in Discard."
+		  },
+		  "167": {
+			"name": "Wither Shield",
+			"desc": "[k]Block[/k] #d.\n[k]Slow[/k] 1.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Slow[/k] 1 [u]and Weak 1[/u]."
+		  },
+		  "168": {
+			"name": "Celerity",
+			"desc": "Gain [k]Combo[/k] equal to your Max.\n[k]Expel[/k].",
+			"up_desc": "Gain [k]Combo[/k] equal to your Max.\n[u][k]Overcharge[/k] 1[/u].\n[k]Expel[/k]."
+		  },
+		  "169": {
+			"name": "Thinning Out",
+			"desc": "[k]Expel[/k] 2 cards from your deck. [k]Expel[/k].",
+			"up_desc": "[k]Expel[/k] 2 cards from your deck. [k]Expel[/k]."
+		  },
+		  "170": {
+			"name": "Thief's Code",
+			"desc": "At the start of your turn, [k]Discard[/k] 1 card and draw another.\n[k]Expel[/k].",
+			"up_desc": "At the start of your turn, [k]Discard[/k] 1 card and draw another. [u]Rigged.[/u]\n[k]Expel[/k]."
+		  },
+		  "171": {
+			"name": "Masochist",
+			"desc": "[k]Recur[/k] 2 random non-[k]Affliction[/k] cards.\n[k]Soultithe[/k] 3.\" ",
+			"up_desc": "[k]Recur[/k] 2 random non-[k]Affliction[/k] cards.\n[k]Soultithe[/k] 3.\n[u]Sift 2.[/u]\" "
+		  },
+		  "172": {
+			"name": "Unholy Cleansing",
+			"desc": "At the start of your turn, damage a random enemy equal to [k]Soultithe[/k]. [k]Expel[/k].",
+			"up_desc": "At the start of your turn, damage [u]all enemies[/u] equal to [k]Soultithe[/k]. [k]Expel[/k]."
+		  },
+		  "173": {
+			"name": "Exploit",
+			"desc": "[k]Opener[/k]: Rage 50%.\nDeal #a damage.",
+			"up_desc": "[k]Opener[/k]: Rage 50%.\n[u]Rage 25%.[/u]\nDeal [u]#a[/u] damage."
+		  },
+		  "174": {
+			"name": "Cursed Blade",
+			"desc": "Deal #a damage.\n[k]Rage[/k] 25%.\n[k]Soultithe[/k] 1.\n[k]Trigger[/k] +[k]X[/k] times.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Rage[/k] 25%.\n[k]Soultithe[/k] 1.\n[k]Trigger[/k] +[k]X[/k] times."
+		  },
+		  "175": {
+			"name": "Soul Block",
+			"desc": "[k]Block[/k] #d. [k]Expel[/k].\n[k]Discard[/k]: [k]Block[/k] @d and gain 1 [k]Corruption[/k].",
+			"up_desc": "[k]Block[/k] [u]#d[/u]. [k]Expel[/k].\n[k]Discard[/k]: [k]Block[/k] [u]@d[/u] and gain 1 [k]Corruption[/k]."
+		  },
+		  "176": {
+			"name": "Dance of Darkness",
+			"desc": "[k]Recur[/k] 1.\n[k]Discard[/k] 1.\nGain 2 [k]Corruption[/k].",
+			"up_desc": "[k]Recur[/k] 1.\n[k]Discard[/k] 1.\nGain 2 [k]Corruption[/k].\n[u]Rebound.[/u]"
+		  },
+		  "177": {
+			"name": "Bolster",
+			"desc": "[k]Block[/k] #d.\n[k]Death Strike[/k] 1.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Death Strike[/k] 1."
+		  },
+		  "178": {
+			"name": "Diversion",
+			"desc": "[k]Block[/k] #d.\n[k]Discard[/k]: [k]Block[/k] @d.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Discard[/k]: [k]Block[/k] @d [u]and trigger Void Stone[/u]."
+		  },
+		  "179": {
+			"name": "What Lies Waiting",
+			"desc": "Draw 3.\n[k]Soultithe[/k] 1 for each Ability drawn. [k]Expel[/k].",
+			"up_desc": "Draw 3.\n[u]Gain 2 Corruption, plus[/u] 1 for each Ability drawn. [k]Expel[/k]."
+		  },
+		  "180": {
+			"name": "Spirit Shield",
+			"desc": "[k]Block[/k] equal to your [k]Corruption[/k] ($).\n[k]Expel[/k].",
+			"up_desc": "[k]Block[/k] equal to your [k]Corruption[/k] ($).\n[k]Expel[/k].\n[u]Purge: Block #d.[/u]"
+		  },
+		  "181": {
+			"name": "Cycle of Agony",
+			"desc": "Deal 50% (%) [k]Corruption[/k] damage.\n[k]Soultithe[/k] 1.\n[k]Loop[/k].",
+			"up_desc": "Deal [u]75[/u]% (%) [k]Corruption[/k] damage.\n[k]Soultithe[/k] 1.\n[k]Loop[/k]."
+		  },
+		  "182": {
+			"name": "Opportunity",
+			"desc": "Deal #a damage.\nInflict [k]Corruption[/k] damage.\n[k]Soultithe[/k] 4.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[u][k]Soultithe[/k] 4[/u].\n[u]Inflict [k]Corruption[/k] damage[/u]."
+		  },
+		  "183": {
+			"name": "Last Chance",
+			"desc": "[k]Block[/k] equal to your [k]Soultithe[/k].\n[k]Death Strike[/k] 1.",
+			"up_desc": "[k]Block[/k] equal to your [k]Soultithe[/k].\n[k]Death Strike[/k] [u]3[/u]."
+		  },
+		  "184": {
+			"name": "Build Up",
+			"desc": "Deal #a damage.\n[k]Death Strike[/k] 1.\n[k]Soultithe[/k] 2.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Death Strike[/k] 1.\n[k]Soultithe[/k] 2.\n[u]Overcharge 1.[/u]"
+		  },
+		  "185": {
+			"name": "Cursed Shield",
+			"desc": "[k]Block[/k] #d.",
+			"up_desc": "[k]Block[/k] #d.\n[u]Gain 2 Corruption.[/u]"
+		  },
+		  "186": {
+			"name": "Death's Touch",
+			"desc": "Deal #a damage.\n[k]Soultithe[/k] 2.\n[k]Recur[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Soultithe[/k] [u]3[/u].\n[k]Recur[/k] [u]2[/u]. [u]Discard 1.[/u]"
+		  },
+		  "187": {
+			"name": "It's Here Somewhere",
+			"desc": "[k]Recur[/k] 1.\nLose [k]Corruption[/k] equal to its cost. ",
+			"up_desc": "[k]Recur[/k] 1.\n[u]Gain[/u] [k]Corruption[/k] equal to its cost. "
+		  },
+		  "188": {
+			"name": "What I Need",
+			"desc": "[k]Sift[/k] 3.\n[k]Block[/k] 2 for each [k]Affliction[/k] [k]Discarded[/k].",
+			"up_desc": "[k]Sift[/k] 3.\n[k]Block[/k] 2 & [u]Heal 1[/u] for each [k]Affliction[/k] [k]Discarded[/k].\n[u]Purge or Discard: Sift 1.[/u]"
+		  },
+		  "189": {
+			"name": "Power Draw",
+			"desc": "Deal #a damage.\n[k]Soultithe[/k] 1.\nDraw 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Soultithe[/k] 1.\nDraw 1."
+		  },
+		  "190": {
+			"name": "My House, My Rules",
+			"desc": "Use [k]Corruption[/k] to play cards, at +1 cost.\n[k]Corruption Lock[/k].\n[k]Expel[/k].",
+			"up_desc": "Use [k]Corruption[/k] to play cards, at +1 cost.\n[k]Corruption Lock[/k].\n[u]Cycle.[/u] [k]Expel[/k]."
+		  },
+		  "191": {
+			"name": "Confession",
+			"desc": "[k]Delay Block[/k] 1 any time you gain or lose [k]Soultithe[/k].\n[k]Expel[/k].",
+			"up_desc": "[k]Delay Block[/k] [u]2[/u] any time you gain or lose [k]Soultithe[/k].\n[k]Expel[/k]."
+		  },
+		  "192": {
+			"name": "Self-inflicted Agony",
+			"desc": "At the start of your turn, [k]Threshold[/k] 5: Gain [k]Death Strike[/k] 1.\n[k]Expel[/k].",
+			"up_desc": "At the start of your turn, [k]Threshold[/k] [u]4[/u]: Gain [k]Death Strike[/k] 1.\n[k]Expel[/k]."
+		  },
+		  "193": {
+			"name": "Cashing In",
+			"desc": "Apply [k]Weak[/k] 1.\nInflict 25% [k]Corruption[/k] damage.",
+			"up_desc": "Apply [k]Weak[/k] 2.\nInflict [u]50%[/u] [k]Corruption[/k] damage."
+		  },
+		  "194": {
+			"name": "Knife in the Dark",
+			"desc": "Deal #a Damage.\nApply [k]Vulnerable[/k] 2. ",
+			"up_desc": "Deal [u]#a[/u] Damage.\nApply [k]Vulnerable[/k] 2, [u]Weak 1 and Slow 1.[/u]"
+		  },
+		  "195": {
+			"name": "Shadow Utility",
+			"desc": "Apply [k]Slow[/k]\nand [k]Weak[/k] 1.\n[k]Discard[/k]: [k]Delay Block[/k] 2.",
+			"up_desc": "Apply [k]Slow[/k]\nand [k]Weak[/k] 1.\n[u]Rebound[/u].\n[k]Discard[/k] [u]or Purge[/u]: [k]Delay Block[/k] 2."
+		  },
+		  "196": {
+			"name": "Blade of Darkness",
+			"desc": "Deal #a damage.\n[k]Soultithe[/k] 1.\nApply [k]Vulnerable[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Soultithe[/k] 1.\nApply [k]Vulnerable[/k] [u]2[/u]."
+		  },
+		  "197": {
+			"name": "Curse of Plenty",
+			"desc": "Draw 1. [k]Discard[/k] 1. [k]Clone[/k].\n[k]Purge[/k]: Gain 1 [k]Corruption[/k].",
+			"up_desc": "Draw 1. [k]Discard[/k] 1. [k]Clone[/k].\n[k]Purge[/k]: Gain 1 [k]Corruption[/k] [u]& trigger Void Stone[/u]."
+		  },
+		  "198": {
+			"name": "Twice the Pain",
+			"desc": "Inflict [k]Corruption[/k] damage (%).\n[k]Rebound[/k].",
+			"up_desc": "Inflict [k]Corruption[/k] damage (%).\n[k]Rebound[/k].\n[u][k]Purge[/k]: Gain 4 [k]Corruption[/k].[/u]"
+		  },
+		  "199": {
+			"name": "Draw on the Abyss",
+			"desc": "[k]Rage[/k] 50%.\n[k]Soultithe[/k] 2.",
+			"up_desc": "[k]Rage[/k] 50%.\n[k]Soultithe[/k] 2.\n[u][k]Discard[/k]: [k]Rage[/k] 25%[/u]."
+		  },
+		  "200": {
+			"name": "To Battle",
+			"desc": "Gain Spiked Armour 3.",
+			"up_desc": "Gain Spiked Armour 5."
+		  },
+		  "201": {
+			"name": "Mighty Blow",
+			"desc": "Deal #a damage. Exhaustion 2. ",
+			"up_desc": "Deal #a damage. Exhaustion 2. "
+		  },
+		  "202": {
+			"name": "Taunt",
+			"desc": "Target enemy switches their intended action for Attack.",
+			"up_desc": "Target enemy switches their intended action for Attack."
+		  },
+		  "203": {
+			"name": "Death's Embrace",
+			"desc": "Draw 1. [k]Discard[/k] 1.\nAdd a [i]Void Coin[/i] to Deck.",
+			"up_desc": "Draw [u]2[/u]. [k]Discard[/k] [u]2[/u].\nAdd a [i]Void Coin[/i] to Deck."
+		  },
+		  "204": {
+			"name": "Foot in the Grave",
+			"desc": "[k]Sift[/k] 1.\nAdd a [i]Void Coin[/i] to Deck.\n[k]Discard[/k]: [k]Sift[/k] 1.",
+			"up_desc": "[k]Sift[/k] [u]2[/u].\nAdd a [i]Void Coin[/i] to Deck.\n[k]Discard[/k]: [k]Sift[/k] [u]2[/u]."
+		  },
+		  "205": {
+			"name": "Soul Spot",
+			"desc": "[k]Vulnerability[/k] increased to 75% additional damage.\n[k]Expel[/k].",
+			"up_desc": "[k]Vulnerability[/k] increased to [u]100[/u]% additional damage.\n[k]Expel[/k]."
+		  },
+		  "206": {
+			"name": "Spiked Shield ",
+			"desc": "[k]Block[/k] #d. Gain Spiked Armour 2.",
+			"up_desc": "[k]Block[/k] #d. Gain Spiked Armour 2."
+		  },
+		  "207": {
+			"name": "Harness Sin",
+			"desc": "[k]Block[/k] #d.\n[k]Purge[/k] & [k]Threshold[/k] 5: [k]Rage[/k] 25%.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Purge[/k] & [k]Threshold[/k] [u]3[/u]: [k]Rage[/k] 25%."
+		  },
+		  "208": {
+			"name": "Take a Breath",
+			"desc": "Recover Exhaustion 2.",
+			"up_desc": "Recover Exhaustion 3."
+		  },
+		  "209": {
+			"name": "Strike with Blood",
+			"desc": "Deal #a damage.\nSet [k]Soultithe[/k] to 10.",
+			"up_desc": "Deal #a damage.\nSet [k]Soultithe[/k] to [u]6[/u]."
+		  },
+		  "210": {
+			"name": "Shadow Dancer",
+			"desc": "[k]Death Strike[/k] 1.\n[k]Rage[/k] 25%.\n[k]Soultithe[/k] 1.",
+			"up_desc": "[k]Death Strike[/k] 1.\n[k]Rage[/k] [u]50[/u]%.\n[k]Soultithe[/k] [u]2[/u]."
+		  },
+		  "211": {
+			"name": "Lashing Kick",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\nZen: [k]Slow[/k] 1.",
+			"up_desc": "Deal #a [k]Future Strike[/k], [u][f][/u] times.\nZen: [k]Slow[/k] 1."
+		  },
+		  "212": {
+			"name": "Repeating Deflection",
+			"desc": "[k]Block[/k] #d.\n[k]Delay Block[/k] @d.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Delay Block[/k] [u]@d[/u]."
+		  },
+		  "213": {
+			"name": "Clarity",
+			"desc": "[k]Foresight[/k] 1.",
+			"up_desc": "[k]Foresight[/k] 1.\n[u]Rigged.[/u]"
+		  },
+		  "214": {
+			"name": "Gaining Momentum",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\n[k]Opener[/k]: [k]Rage[/k] 25%.",
+			"up_desc": "Deal [u]#a[/u] [k]Future Strike[/k], [f] times.\n[k]Opener[/k]: [k]Rage[/k] [u]50%[/u]."
+		  },
+		  "215": {
+			"name": "Cautious Blow",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\n[k]Opener[/k]: Apply [k]Weak[/k] 1 & [k]Block[/k] @d.",
+			"up_desc": "Deal #a [k]Future Strike[/k], [u][f][/u] times.\n[k]Opener[/k]: Apply [k]Weak[/k] 1 & [k]Block[/k] @d."
+		  },
+		  "216": {
+			"name": "Combination Strike",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\n[k]Follow-Up[/k]: Draw 1.",
+			"up_desc": "Deal #a [k]Future Strike[/k], [u][f][/u] times.\n[k]Follow-Up[/k]: Draw 1."
+		  },
+		  "217": {
+			"name": "Meditation",
+			"desc": "Enter [k]Zen[/k].\n[k]Expel[/k].",
+			"up_desc": "Enter [k]Zen[/k].\n[u]Foresight 1.[/u]\n[k]Expel[/k]."
+		  },
+		  "218": {
+			"name": "Unbalancing Strike",
+			"desc": "Deal #a [k]Future Strike[/k], [f] time(s).\n[k]Opener[/k]: Apply [k]Vulnerable[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] [k]Future Strike[/k], [u][f][/u] times.\n[k]Opener[/k]: Apply [k]Vulnerable[/k] [u]2[/u]."
+		  },
+		  "219": {
+			"name": "Clairvoyance",
+			"desc": "[k]Vision[/k] 2.\n[k]Delay Block[/k] #d.",
+			"up_desc": "[k]Vision[/k] 2.\n[k]Delay Block[/k] [u]#d[/u]."
+		  },
+		  "220": {
+			"name": "Replay",
+			"desc": "Rewind target.\nApply [k]Slow[/k] 2.\n[k]Expel[/k].",
+			"up_desc": "Rewind target.\nApply [k]Slow[/k] 2.\n[k]Expel[/k].\n[u]Purge: Delay Block 4.[/u]"
+		  },
+		  "221": {
+			"name": "Battle Insight",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\nZen: [k]Vision[/k] 1.",
+			"up_desc": "Deal #a [k]Future Strike[/k], [u][f][/u] times.\nZen: [k]Vision[/k] 1."
+		  },
+		  "222": {
+			"name": "Time Loop",
+			"desc": "[k]Stasis[/k] 1.\n[k]Slow[/k] 1.\n[k]Expel[/k].",
+			"up_desc": "[k]Stasis[/k] 1.\n[k]Slow[/k] 1.\n[k]Expel[/k].\n[u][k]Purge[/k]: Draw 1[/u]."
+		  },
+		  "223": {
+			"name": "Timely Maneuver",
+			"desc": "[k]Block[/k] #d.\n[k]Follow-Up[/k]: [k]Delay Block[/k] @d.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Follow-Up[/k]: [k]Delay Block[/k] [u]@d[/u]."
+		  },
+		  "224": {
+			"name": "Back in Time",
+			"desc": "Applying [k]Slow[/k] to an enemy will also deal 5 [k]Future Strike[/k].\n[k]Expel[/k].",
+			"up_desc": "Applying [k]Slow[/k] to an enemy will also deal [u]8[/u] [k]Future Strike[/k].\n[k]Expel[/k]."
+		  },
+		  "225": {
+			"name": "Haste",
+			"desc": "This turn, dealing [k]Future Strike[/k] deals damage for the same amount.",
+			"up_desc": "This turn, dealing [k]Future Strike[/k] deals damage for the same amount."
+		  },
+		  "226": {
+			"name": "Thousand Fists",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\nIf target is [k]Slow[/k],\n[k]Trigger[/k] +1.",
+			"up_desc": "Deal #a [k]Future Strike[/k], [f] times.\nIf [u]Zen[/u] or target is [k]Slow[/k], [k]Trigger[/k] +1."
+		  },
+		  "227": {
+			"name": "Unbalanced Fury",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times, to all enemies.",
+			"up_desc": "Deal #a [k]Future Strike[/k], [f] times, to all enemies.\n[u]Chain 1.[/u]"
+		  },
+		  "228": {
+			"name": "Time Warp",
+			"desc": "[k]Future Strike[/k] will trigger at the end of this turn.",
+			"up_desc": "[k]Future Strike[/k] will trigger at the end of this turn.\n[u]Purge: Chain 1.[/u]"
+		  },
+		  "229": {
+			"name": "Smack to the Future",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\n[k]Rewind[/k] target.\n[k]Expel[/k].",
+			"up_desc": "Deal [u]#a[/u] [k]Future Strike[/k], [u][f][/u] times.\n[k]Rewind[/k] target.\n[k]Expel[/k]."
+		  },
+		  "230": {
+			"name": "Flurry of Blows",
+			"desc": "Deal #a [k]Future Strike[/k] to a random enemy, [f] times.\n[k]Purge[/k]: Deal 2 [k]Future Strike[/k] to a random enemy.",
+			"up_desc": "Deal [u]#a[/u] [k]Future Strike[/k] to a random enemy, [f] times.\n[k]Purge[/k]: Deal [u]3[/u] [k]Future Strike[/k] to a random enemy."
+		  },
+		  "231": {
+			"name": "No Time",
+			"desc": "Deal damage equal to [k]Future Strike[/k].\nSet [k]Future Strike[/k] to 0.",
+			"up_desc": "[u]Apply [k]Vulnerable[/k] 1[/u].\nInflict damage equal to [k]Future Strike[/k].\nSet [k]Future Strike[/k] to 0."
+		  },
+		  "232": {
+			"name": "Mind Over Matter",
+			"desc": "Put all cards with [k]Foresight[/k] cast on them from deck to hand.",
+			"up_desc": "Put all cards with [k]Foresight[/k] cast on them from deck to hand.\n[u]Purge: Foresight 1.[/u]"
+		  },
+		  "233": {
+			"name": "Echoes of the Past",
+			"desc": "Add 2 copies of a card from Discard to top of the deck. [k]Expel[/k].",
+			"up_desc": "Add 2 [u]Upgraded[/u] copies of a card from Discard to top of the deck. [k]Expel[/k]."
+		  },
+		  "234": {
+			"name": "Reflect",
+			"desc": "[k]Echo Wall[/k] 1.\n[k]Chain[/k] 1.",
+			"up_desc": "[k]Echo Wall[/k] 1.\n[k]Chain[/k] 1.\n[u]Purge: Gain 1 Energy.[/u]"
+		  },
+		  "235": {
+			"name": "Opposing Force",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\n[k]Opener[/k]: [k]Echo Wall[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] [k]Future Strike[/k], [f] times.\n[k]Echo Wall[/k] 1."
+		  },
+		  "236": {
+			"name": "No Kando",
+			"desc": "Each time your deck is reshuffled, [k]Echo Wall[/k] 1.\n[k]Expel[/k].",
+			"up_desc": "Each time your deck is reshuffled, [k]Echo Wall[/k] 1.\n[u]Rigged.[/u] [k]Expel[/k]."
+		  },
+		  "237": {
+			"name": "Renewal",
+			"desc": "Swap your Deck and Discard.",
+			"up_desc": "Swap your Deck and Discard.\n[u][k]Purge[/k]: Chain 1.[/u]."
+		  },
+		  "238": {
+			"name": "Deceleration",
+			"desc": "Apply [k]Slow[/k] 1. If target is already [k]Slow[/k], apply [k]Weak[/k] 2 instead.",
+			"up_desc": "Apply [k]Slow[/k] 1. If target is already [k]Slow[/k], apply [k]Weak[/k] 2 [u]as well[/u]."
+		  },
+		  "239": {
+			"name": "Chaotic Blur",
+			"desc": "[k]Opener[/k]: [k]Block[/k] #d and apply [k]Slow[/k] 1.\n[k]Follow-Up[/k]: Apply [k]Vulnerable[/k] 2.",
+			"up_desc": "[k]Opener[/k]: [k]Block[/k] [u]#d[/u] and apply [k]Slow[/k] 1.\n[k]Follow-Up[/k]: Apply [k]Vulnerable[/k] [u]3[/u]."
+		  },
+		  "240": {
+			"name": "Mix Up",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\nIf target has no [k]Future Strike[/k], [k]Trigger[/k] +1.",
+			"up_desc": "Deal [u]#a[/u] [k]Future Strike[/k], [f] times.\nIf target has no [k]Future Strike[/k], [k]Trigger[/k] +1."
+		  },
+		  "241": {
+			"name": "Memento Mori",
+			"desc": "Deal damage equal to half of target's [k]Future Strike[/k].\n[k]Slay[/k]: [k]Transfer[/k] their [k]Future Strike[/k].",
+			"up_desc": "Deal damage equal to half of target's [k]Future Strike[/k].\n[k]Slay[/k]: [k]Transfer[/k] their [k]Future Strike[/k]."
+		  },
+		  "242": {
+			"name": "Better Future",
+			"desc": "[k]Block[/k] #d, [k]Vision[/k] 1.\nUpgrade the chosen card for the rest of the Battle.",
+			"up_desc": "[k]Block[/k] #d, [k]Vision[/k] [u]2[/u].\nUpgrade the chosen [u]cards[/u] for the rest of the Battle."
+		  },
+		  "243": {
+			"name": "Stability",
+			"desc": "Deal #a damage.\nDeal @a [k]Shii[/k].\n[k]Opener[/k]: [k]Ghost[/k].",
+			"up_desc": "Deal #a damage.\nDeal [u]@a[/u] [k]Shii[/k],[u] 2 times[\\u].\n[k]Opener[/k]: [k]Ghost[/k]."
+		  },
+		  "244": {
+			"name": "Stillness",
+			"desc": "Apply [k]Vulnerable[/k] 1 and [k]Weak[/k] 1.\nZen: Deal #a [k]Shii[/k].",
+			"up_desc": "Apply [k]Vulnerable[/k] 1 and [k]Weak[/k] [u]2[/u].\nZen: Deal [u]#a[/u] [k]Shii[/k]."
+		  },
+		  "245": {
+			"name": "State of Mind",
+			"desc": "When entering [k]Zen[/k], deal 4 [k]Shii[/k] to all enemies.",
+			"up_desc": "When entering [k]Zen[/k], deal 4 [k]Shii[/k] to all enemies.\n[u]Purge: Deal 2 Shii to all enemies.[/u]"
+		  },
+		  "246": {
+			"name": "Union",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\nDeal @a [k]Shii[/k].",
+			"up_desc": "Deal #a [k]Future Strike[/k], [u][f][/u] times.\nDeal [u]@a[/u] [k]Shii[/k]."
+		  },
+		  "247": {
+			"name": "Timeless",
+			"desc": "This turn, all [k]Future Strike[/k] dealt will be converted to [k]Shii[/k].",
+			"up_desc": "This turn, all [k]Future Strike[/k] dealt will be [u]additionally[/u] dealt as [k]Shii[/k]."
+		  },
+		  "248": {
+			"name": "Spirit Walk",
+			"desc": "Deal #a [k]Shii[/k].\n[k]Ghost[/k]. [k]Desync[/k]. [k]Inert[/k].",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k].\n[k]Ghost[/k]."
+		  },
+		  "249": {
+			"name": "Stance of the Tiger",
+			"desc": "At the start of each turn, add 2 [k]Swift Kicks[/k] to your hand.\n[k]Expel[/k].",
+			"up_desc": "At the start of each turn, add [u]3[/u] [k]Swift Kicks[/k] to your hand.\n[k]Expel[/k]."
+		  },
+		  "250": {
+			"name": "Swift Kick",
+			"desc": "Deal #a [k]Future Strike[/k], [f] time(s).\n[k]Desync[/k].",
+			"up_desc": "Deal #a [k]Future Strike[/k], [f] time(s)."
+		  },
+		  "251": {
+			"name": "Mind Blast",
+			"desc": "Deal #a [k]Shii[/k], 2 times.\n[k]Desync[/k].",
+			"up_desc": "Deal #a [k]Shii[/k], 2 times."
+		  },
+		  "252": {
+			"name": "Stance of the Crane",
+			"desc": "At the start of each turn, add 2 [k]Mind Blasts[/k] to your hand.\n[k]Expel[/k].",
+			"up_desc": "At the start of each turn, add [u]3[/u] [k]Mind Blasts[/k] to your hand.\n[k]Expel[/k]."
+		  },
+		  "253": {
+			"name": "Spirit Essence",
+			"desc": "Deal #a [k]Shii[/k].\nZen: Gain 1 Energy.",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k].\n[u]Chain 1.[/u]\nZen: Gain 1 Energy."
+		  },
+		  "254": {
+			"name": "Wave of Focus",
+			"desc": "Deal #a [k]Shii[/k] to all enemies.\n[k]Solo:[/k] [k]Trigger[/k] +1.",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k] to all enemies.\n[k]Solo:[/k] [k]Trigger[/k] +1."
+		  },
+		  "255": {
+			"name": "Body and Mind",
+			"desc": "Deal #a [k]Shii[/k] and [k]Overcharge[/k] 1, [k]X[/k] times.",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k] and [k]Overcharge[/k] 1, [k]X[/k] times."
+		  },
+		  "256": {
+			"name": "Mind Shield",
+			"desc": "Gain [k]Block[/k] and [k]Delay Block[/k] equal to half the total [k]Shii[/k] in play.\n[k]Expel[k].",
+			"up_desc": "Gain [k]Block[/k] and [k]Delay Block[/k] equal to half the total [k]Shii[/k] in play.\n[k]Expel[k].\n[u]Purge:[/u] [k]Block[/k] 4."
+		  },
+		  "257": {
+			"name": "Mind Shatter",
+			"desc": "Deal #a [k]Shii[/k].\n[k]Solo:[/k] Deal damage equal to half of target's [k]Shii[/k].",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k].\n[k]Solo:[/k] Deal damage equal to half of target's [k]Shii[/k]."
+		  },
+		  "258": {
+			"name": "Pinpoint",
+			"desc": "Deal #a [k]Shii[/k].\n[k]Fatigued:[/k] Gain 1 Energy and [k]Rebound[/k].",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k].\n[k]Fatigued:[/k] Gain 1 Energy and [k]Rebound[/k]."
+		  },
+		  "259": {
+			"name": "Calm",
+			"desc": "[k]Foresight[/k] X, where X equals the number of enemies with Fatigue.",
+			"up_desc": "[k]Foresight[/k] X [u](minimum of 2)[/u], where X equals the number of enemies with Fatigue."
+		  },
+		  "260": {
+			"name": "Trance",
+			"desc": "Deal #a [k]Shii[/k].\n[k]Follow-Up[/k]: Deal @a [k]Shii[/k].\nZen: Deal @a [k]Shii[/k].",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k].\n[k]Follow-Up[/k]: Deal [u]@a[/u] [k]Shii[/k].\nZen: Deal [u]@a[/u] [k]Shii[/k]."
+		  },
+		  "261": {
+			"name": "Clear Image",
+			"desc": "Deal #a [k]Shii[/k], 2 times.\n[k]Opener[/k]: [k]Foresight[/k] 1.",
+			"up_desc": "Deal #a [k]Shii[/k], [u]3 times[/u].\n[k]Opener[/k]: [k]Foresight[/k] 1."
+		  },
+		  "262": {
+			"name": "Exhale",
+			"desc": "Deal #a [k]Shii[/k] to a random enemy 5 times.",
+			"up_desc": "Deal #a [k]Shii[/k] to a random enemy [u]7[/u] times."
+		  },
+		  "263": {
+			"name": "Discipline",
+			"desc": "[k]Block[/k] #d.\n[k]Delay Block[/k] @d.\n[k]Follow-Up[/k]: [k]Rage[/k] 50%.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Delay Block[/k] [u]@d[/u].\n[k]Follow-Up[/k]: [k]Rage[/k] 50%."
+		  },
+		  "264": {
+			"name": "Outpace",
+			"desc": "[k]Block[/k] #d.\n[k]Block[/k] @d ($) for each stack of Fatigue across all enemies.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Block[/k] [u]@d[/u] ($) for each stack of Fatigue across all enemies."
+		  },
+		  "265": {
+			"name": "Cohesion",
+			"desc": "[k]Block[/k] #d.\nZen: If you have 0 Energy, gain 1 Energy.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\nZen: If you have 0 Energy, gain 1 Energy."
+		  },
+		  "266": {
+			"name": "Deliberate",
+			"desc": "Deal #a [k]Shii[/k], 2 times.\nZen: [k]Block[/k] @d.",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k], [u]3 times[/u].\nZen: [k]Block[/k] [u]@d[/u]."
+		  },
+		  "267": {
+			"name": "Careful Advance",
+			"desc": "Deal #a [k]Shii[/k], 2 times.\n[k]Opener[/k]: [k]Slow[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k], [u]3 times[/u].\n[k]Opener[/k]: [k]Slow[/k] 1."
+		  },
+		  "268": {
+			"name": "Bring the Thunder",
+			"desc": "[k]Rage[/k] 25%, [k]X[/k]+1 times.",
+			"up_desc": "[k]Rage[/k] [u]50[/u]%, [k]X[/k] times."
+		  },
+		  "269": {
+			"name": "Ceaseless",
+			"desc": "Each turn, the first time you spend [k]Combo[/k], [k]Combo[/k] 1. [k]Expel[/k].",
+			"up_desc": "Each turn, the first time you spend [k]Combo[/k], [k]Combo[/k] [u]2[/u]. [k]Expel[/k]."
+		  },
+		  "270": {
+			"name": "Debt Repaid",
+			"desc": "Deal #a damage.\n[k]Purge[/k] & [k]Threshold[/k] 5: Deal 6 damage to a random enemy.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Purge[/k] & [k]Threshold[/k] 5: Deal [u]8[/u] damage to a random enemy."
+		  },
+		  "271": {
+			"name": "Proliferate",
+			"desc": "Deal #a damage to all enemies.\n[k]Threshold[/k] 6: [k]Block[k] @d.",
+			"up_desc": "Deal [u]#a[/u] damage to all enemies.\n[k]Threshold[/k] 6: [k]Block[/k] [u]@d[/u]."
+		  },
+		  "272": {
+			"name": "Dirty Soul",
+			"desc": "[k]Soultithe[/k] 1.\nDeal 75% (%) [k]Corruption[/k] damage.\n[k]Threshold[/k] 4: Gain 2 [k]Corruption[/k].",
+			"up_desc": "[k]Soultithe[/k] 1.\nDeal [u]100[/u]% (%) [k]Corruption[/k] damage.\n[k]Threshold[/k] 4: Gain 2 [k]Corruption[/k]."
+		  },
+		  "273": {
+			"name": "Veil",
+			"desc": "[k]Block[/k] #d.\n[k]Threshold[/k] 7: Draw 1.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Threshold[/k] [u]6[/u]: Draw 1."
+		  },
+		  "274": {
+			"name": "Abyssal Unity",
+			"desc": "[k]Block[/k] #d.\nApply [k]Vulnerable[/k] 1 to all enemies. Gain 2 [k]Corruption[/k].\n[k]Threshold[/k] 13: Trigger +1.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\nApply [k]Vulnerable[/k] [u]2[/u] to all enemies. Gain [u]3[/u] [k]Corruption[/k].\n[k]Threshold[/k] 13: Trigger +1."
+		  },
+		  "275": {
+			"name": "What Was Owed",
+			"desc": "Deal #a damage. [k]Soultithe[/k] 1.\n[k]Death Strike[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage. [k]Soultithe[/k] 1.\n[k]Death Strike[/k] 1."
+		  },
+		  "276": {
+			"name": "One Step Ahead",
+			"desc": "[k]Block[/k] #d.\n[k]Delay Block[/k] @d for each stack of Fatigue on target.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Delay Block[/k] @d for each stack of Fatigue on target."
+		  },
+		  "277": {
+			"name": "Mirror Guard",
+			"desc": "[k]Block[/k] #d.\n[k]Echo Wall[/k] 1.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Echo Wall[/k] 1."
+		  },
+		  "278": {
+			"name": "Readied Reprisal",
+			"desc": "[k]Delayed Block[/k] #d.\n[k]Echo Wall[/k] 1. [k]Expel[/k].",
+			"up_desc": "[k]Delayed Block[/k] #d.\n[k]Echo Wall[/k] 1. [k]Expel[/k].\n[u]Purge: Block @d[/u]."
+		  },
+		  "279": {
+			"name": "Wait For It",
+			"desc": "[k]Echo Wall[/k] 1.\n[k]Foresight[/k] 1.\n[k]Delay Block[/k] #d.",
+			"up_desc": "[k]Echo Wall[/k] 1.\n[k]Foresight[/k] 1.\n[k]Delay Block[/k] [u]#d[/u]."
+		  },
+		  "280": {
+			"name": "Persist",
+			"desc": "Deal #a [k]Shii[/k].\n[k]Fatigued[/k]: Draw 1.",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k], [u]2 times[/u].\n[k]Fatigued[/k]: Draw 1."
+		  },
+		  "281": {
+			"name": "Unbalance",
+			"desc": "Deal #a [k]Future Strike[/k], [f] time(s).\n[k]Follow-Up[/k]: Apply [k]Weak[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] [k]Future Strike[/k], [f] time(s).\n[k]Follow-Up[/k]: Apply [k]Weak[/k] 1."
+		  },
+		  "282": {
+			"name": "Pressure",
+			"desc": "Deal #a [k]Shii[/k], 2 times.\n[k]Fatigued[/k]: [k]Trigger[/k] +1.",
+			"up_desc": "Deal [u]#a[/u] [k]Shii[/k], 2 times.\n[k]Fatigued[/k]: [k]Trigger[/k] +1."
+		  },
+		  "283": {
+			"name": "Delay",
+			"desc": "Apply [k]Slow[/k] 1 to all enemies.\n[k]Solo[/k]: [k]Delay Block[/k] #d.",
+			"up_desc": "Apply [k]Slow[/k] 1 to all enemies.\n[k]Solo[/k]: [k]Delay Block[/k] [u]#d[/u]."
+		  },
+		  "284": {
+			"name": "Jack of All",
+			"desc": "Deal #a [k]Future Strike[/k], [f] time(s).\nDeal @a [k]Shii[/k]. [k]Block[/k] 3. [k]Delay Block[/k] 3.",
+			"up_desc": "Deal [u]#a[/u] [k]Future Strike[/k], [f] time(s).\nDeal [u]@a[/u] [k]Shii[/k]. [k]Block[/k] [u]4[/u]. [k]Delay Block[/k] [u]4[/u]."
+		  },
+		  "285": {
+			"name": "Master of None",
+			"desc": "[k]Foresight[/k] 1. [k]Vision[/k] 1. Apply [k]Slow[/k] 1.",
+			"up_desc": "[k]Foresight[/k] 1. [k]Vision[/k] 1. Apply [k]Slow[/k] 1. [u]Echo Wall 1[/u]. "
+		  },
+		  "286": {
+			"name": "Age",
+			"desc": "Apply [k]Weak[/k] 1 for each Fatigue on the target. Apply [k]Slow[/k] 1 for each 2 Fatigue on the target.",
+			"up_desc": "Apply [k]Weak[/k] 1 for each Fatigue on the target. Apply [k]Slow[/k] [u]and Vulnerable[/u] 1 for each 2 Fatigue on the target."
+		  },
+		  "287": {
+			"name": "Stoicism",
+			"desc": "[k]Echo Wall[/k] 1. [k]Draw[/k] 1. [k]Desync[/k].",
+			"up_desc": "[k]Echo Wall[/k] 1. [k]Draw[/k] 1."
+		  },
+		  "288": {
+			"name": "Multitask",
+			"desc": "Deal #a [k]Future Strike[/k], [f] times.\n[k]Per[/k] 15 [k]Shii[/k]: [k]Delay Block[/k] 1. (Max 25)",
+			"up_desc": "Deal [u]#a[/u] [k]Future Strike[/k], [f] times.\n[k]Per[/k] [u]12[/u] [k]Shii[/k]: [k]Delay Block[/k] 1. (Max 25)"
+		  },
+		  "289": {
+			"name": "Now and Then",
+			"desc": "[k]Opener[/k]: [k]Block[/k] #d. [k]Follow-Up[/k]: [k]Delay Block[/k] @d.\nZen: [k]Rebound[/k].",
+			"up_desc": "[k]Opener[/k]: [k]Block[/k] [u]#d[/u]. [k]Follow-Up[/k]: [k]Delay Block[/k] [u]@d[/u].\nZen: [k]Rebound[/k]."
+		  },
+		  "290": {
+			"name": "Ankle Break",
+			"desc": "Deal #a damage.\nDeal @a [k]Shii[/k].\n[k]Follow-Up[/k]: Apply [k]Slow[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\nDeal [u]@a[/u] [k]Shii[/k].\n[k]Follow-Up[/k]: Apply [k]Slow[/k] 1."
+		  },
+		  "291": {
+			"name": "Escalate",
+			"desc": "Per @d [k]Shii[/k] on target: Deal #a [k]Shii[/k].",
+			"up_desc": "Per [u]@d[/u] [k]Shii[/k] on target: Deal #a [k]Shii[/k]."
+		  },
+		  "292": {
+			"name": "Reconciliation",
+			"desc": "Transfer all [k]Shii[/k] to the target.\n[k]Slay[/k]: [k]Shii[/k] has 100% Death Transfer.",
+			"up_desc": "Transfer all [k]Shii[/k] to the target.\n[k]Slay[/k]: [k]Shii[/k] has 100% Death Transfer.\n[u]Purge: Deal 2 Shii to all enemies.[/k]"
+		  },
+		  "293": {
+			"name": "Run Ragged",
+			"desc": "Apply 1 Fatigue to all enemies. Deal #a [k]Future Strike[/k], [f] times, to all enemies with at least 3 Fatigue. [k]Expel[/k].",
+			"up_desc": "Apply 1 Fatigue to all enemies. Deal #a [k]Future Strike[/k], [f] times, to all enemies. [k]Expel[/k]."
+		  },
+		  "294": {
+			"name": "Reverb",
+			"desc": "Apply Fatigue to all enemies equal to [k]Echo Wall[/k].\nReduce [k]Echo Wall[/k] to 0.",
+			"up_desc": "Apply Fatigue [u]and deal Future Strike[/u] to all enemies equal to [k]Echo Wall[/k].\nReduce [k]Echo Wall[/k] to 0."
+		  },
+		  "295": {
+			"name": "Calculated",
+			"desc": "[k]Future Strike[/k] now triggers every 3rd turn. Apply [k]Vulnerable[/k] 1 to all enemies each turn.\n[k]Expel[/k].",
+			"up_desc": "[k]Future Strike[/k] now triggers every 3rd turn. Apply [k]Vulnerable[/k] 1 to all enemies each turn.\n[k]Expel[/k]."
+		  },
+		  "296": {
+			"name": "Prophesized",
+			"desc": "Deal #a [k]Shii[/k] a number of times equal to 9 minus this card's Energy cost.",
+			"up_desc": "Deal #a [k]Shii[/k] a number of times equal to 9 minus this card's Energy cost."
+		  },
+		  "297": {
+			"name": "Mind Game",
+			"desc": "Deal [k]Shii[/k] to all enemies equal to target's [k]Future Strike[/k]. Set target's [k]Future Strike[/k] to 0.",
+			"up_desc": "Deal [k]Shii[/k] to all enemies equal to target's [k]Future Strike[/k]. Set target's [k]Future Strike[/k] to 0.\n[u]Solo: Increase target's Shii by 25%[/u]"
+		  },
+		  "298": {
+			"name": "Splatter",
+			"desc": "Deal #a damage.\n[k]Clot[/k] 2: Deal @a damage.",
+			"up_desc": "Deal #a damage.\n[k]Clot[/k] [u]1[/u]: Deal [u]@a[/u] damage."
+		  },
+		  "299": {
+			"name": "Slick Strike",
+			"desc": "Deal #a damage.\n[k]Clot[/k] 1: Block @d.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Clot[/k] 1: Block [u]@d[/u]."
+		  },
+		  "300": {
+			"name": "First Blood",
+			"desc": "If target is below 10 [k]Bleed[/k], deal #a damage.\nApply [k]Bleed[/k] @d.",
+			"up_desc": "If target is below 10 [k]Bleed[/k], deal [u]#a[/u] damage.\nApply [k]Bleed[/k] [u]@d[/u]."
+		  },
+		  "301": {
+			"name": "Bloodthirst",
+			"desc": "Deal #a damage.\n[k]Clot[/k] 2: Gain 1 Energy.",
+			"up_desc": "Deal [u]#a[/u] damage.\n[k]Clot[/k] [u]4[/u]: Gain [u]2[/u] Energy."
+		  },
+		  "302": {
+			"name": "Silent Shiv",
+			"desc": "Apply [k]Bleed[/k] #d. [k]Balanced[/k].\n[k]Inert[/k].",
+			"up_desc": "Apply [k]Bleed[/k] [u]#d[/u]. [k]Balanced[/k].\n[k]Inert[/k]."
+		  },
+		  "303": {
+			"name": "Exploit Vulnerability",
+			"desc": "Apply [k]Vulnerable[/k] 1.\nApply [k]Bleed[/k] equal to combined [k]Vulnerable[/k], [k]Weak[/k], and [k]Slow[/k].",
+			"up_desc": "Apply [k]Vulnerable[/k] [u]3[/u].\nApply [k]Bleed[/k] equal to combined [k]Vulnerable[/k], [k]Weak[/k], and [k]Slow[/k]."
+		  },
+		  "304": {
+			"name": "Open Up",
+			"desc": "Set target's [k]Bleed[/k] to #d.",
+			"up_desc": "Set target's [k]Bleed[/k] to #d. [k]Overcharge[/k] 1.\n[k]Expel[/k]."
+		  },
+		  "305": {
+			"name": "Hemolysis",
+			"desc": "[k]Block[/k] #d.\n[k]Clot[/k] 1: Apply [k]Weak[/k] 2.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Clot[/k] 1: Apply [k]Weak[/k] 2."
+		  },
+		  "306": {
+			"name": "Bloodlust",
+			"desc": "[k]Block[/k] #d.\n[k]Clot[/k] 2: [k]Overcharge[/k] 1.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Clot[/k] [u]1[/u]: [k]Overcharge[/k] 1."
+		  },
+		  "307": {
+			"name": "Lick the Knife",
+			"desc": "[k]Combo[/k] 1.\n[k]Clot[/k] 4: [k]Rebound[/k].",
+			"up_desc": "[k]Combo[/k] 1.\n[k]Clot[/k] [u]2[/u]: [k]Rebound[/k]."
+		  },
+		  "308": {
+			"name": "Agility",
+			"desc": "Max [k]Combo[/k] is increased by 1 this turn. [k]Combo[/k] 1.",
+			"up_desc": "Max [k]Combo[/k] is increased by 1 this turn. [k]Combo[/k] 1."
+		  },
+		  "309": {
+			"name": "Cease Exertion",
+			"desc": "Apply [k]Slow[/k] 1.\n[k]Clot[/k] 3: Apply [k]Slow[/k] 1.",
+			"up_desc": "Apply [k]Slow[/k] 1.\n[k]Clot[/k] 3: Apply [k]Slow[/k] 1.\n[u]Clot 3: Apply Slow 1[/u]."
+		  },
+		  "310": {
+			"name": "Hamstring",
+			"desc": "Deal #a damage.\nApply [k]Slow[/k] 1.",
+			"up_desc": "Deal [u]#a[/u] damage.\nApply [k]Slow[/k] 1.\n[u]Block @d[/u]."
+		  },
+		  "311": {
+			"name": "Rip and Tear",
+			"desc": "Apply Bleed #d.\nApply [k]Vulnerable[/k] 1.",
+			"up_desc": "Apply Bleed [u]#d[/u].\nApply [k]Vulnerable[/k] 1."
+		  },
+		  "312": {
+			"name": "Slice in Twain",
+			"desc": "Deal #a damage to a target.\n[k]Clot[/k] 5: Apply @d [k]Bleed[/k] to all other enemies.",
+			"up_desc": "Deal [u]#a[/u] damage to a target.\n[k]Clot[/k] [u]4[/u]: Apply [u]@d[/u] [k]Bleed[/k] to all other enemies."
+		  },
+		  "313": {
+			"name": "Once More, With...",
+			"desc": "Your next non-Buff card this turn will [k]Trigger[/k] +1. [k]Inert[/k].",
+			"up_desc": "Your next non-Buff card this turn will [k]Trigger[/k] +1. [k]Inert[/k]."
+		  },
+		  "314": {
+			"name": "Void Coin",
+			"desc": "When Drawn: Block 3.n\\Gain 1 Energy, Discard 1. Discard: Expel, Draw 1, Discard 1.",
+			"up_desc": "When Drawn: Block 3.n\\Gain 1 Energy, Discard 1. Discard: Expel, Draw 1, Discard 1."
+		  },
+		  "315": {
+			"name": "Muted",
+			"desc": "Effects that give [i]Hidden Blades[/i] create [i]Silent Shivs[/i] instead. [k]Expel[/k].",
+			"up_desc": "Effects that give [i]Hidden Blades[/i] create [i]Silent Shivs[/i] instead. [k]Rigged[/k]. [k]Expel[/k]."
+		  },
+		  "316": {
+			"name": "Tax Evasion",
+			"desc": "[k]Block[/k] equal to your [k]Soultithe[/k].",
+			"up_desc": "[k]Block[/k] equal to your [k]Soultithe[/k].\n[u]This turn, Soultithe-gaining effects only give Corruption instead[/u]."
+		  },
+		  "317": {
+			"name": "Blind Fury",
+			"desc": "[k]Rage[/k] 125%.\n[k]Corruption Lock[/k].",
+			"up_desc": "[k]Rage[/k] [u]175[/u]%.\n[k]Corruption Lock[/k]."
+		  },
+		  "318": {
+			"name": "Maddening",
+			"desc": "Gain 2 [k]Corruption[/k].\n[k]Purge[/k]: Deal 6 damage to a random enemy.",
+			"up_desc": "Gain [u]3[/u] [k]Corruption[/k].\n[k]Purge[/k]: Deal 6 damage to a random enemy [u]and trigger Void Stone[/u]."
+		  },
+		  "319": {
+			"name": "Fading Memories",
+			"desc": "[k]Recur[/k] 1.\nMake the chosen cards [u]Volatile[/u].\n[u]Expel[/u].",
+			"up_desc": "[k]Recur[/k] [u]2[/u].\nMake the chosen cards [u]Volatile[/u].\n[u]Expel[/u]."
+		  },
+		  "320": {
+			"name": "Blood for Blood",
+			"desc": "Deal #a damage.\nIf you have lost health this Battle, [k]Trigger[/k] +1.",
+			"up_desc": "Deal [u]#a[/u] damage.\nIf you have lost health this Battle, [k]Trigger[/k] +1."
+		  },
+		  "321": {
+			"name": "Dark Pulse",
+			"desc": "Deal 50% (%) [k]Corruption[/k] damage to all enemies.\n[k]Slay[/k]: Gain 3 [k]Corruption[/k].",
+			"up_desc": "Deal [u]75[/u]% (%) [k]Corruption[/k] damage to all enemies.\n[k]Slay[/k]: Gain 3 [k]Corruption[/k]."
+		  },
+		  "322": {
+			"name": "Collection Plate",
+			"desc": "[k]Block[/k] #d.\nAdd 1 [i]Void Coin[/i] to Discard."
+		  },
+		  "323": {
+			"name": "Passage Payment",
+			"desc": "Add 2 [i]Void Coins[/i] to Discard.\n[k]Sift[/k] 2 random [k]Afflictions[/k].",
+			"up_desc": "Add 2 [i]Void Coins[/i] to Discard.\n[k]Sift[/k] 2 random [k]Afflictions[/k]. [u]Sift 1[/u]."
+		  },
+		  "324": {
+			"name": "Dead to Rites",
+			"desc": "[k]Discard[/k] 1. If it is an [k]Affliction[/k], apply [k]Weak[/k] 1 and [k]Vulnerable[/k] 2 to all enemies.",
+			"up_desc": "[k]Discard[/k] 1. If it is an [k]Affliction[/k], apply [k]Weak[/k] [u]2[/u] and [k]Vulnerable[/k] [u]3[/u] to all enemies."
+		  },
+		  "325": {
+			"name": "Reap and Sow",
+			"desc": "Deal 50% (%) [k]Corruption[/k] damage.\n[k]Sift[/k] 1.",
+			"up_desc": "Deal [u]75[/u]% (%) [k]Corruption[/k] damage.\n[k]Sift[/k] 1."
+		  },
+		  "326": {
+			"name": "Loose Change",
+			"desc": "Apply 1 [k]Vulnerable[/k].\nAdd 1 [i]Void Coin[/i] to Discard.\n[k]Rebound[/k].",
+			"up_desc": "Apply [u]2[/u] [k]Vulnerable[/k].\nAdd 1 [i]Void Coin[/i] to Discard.\n[k]Rebound[/k]."
+		  },
+		  "327": {
+			"name": "Allomancy",
+			"desc": "Deal #a Damage.\nFor each damage dealt, add a [i]Void Coin[/i] to Discard.",
+			"up_desc": "Deal #a Damage.\nFor each damage dealt, add a [i]Void Coin[/i] to [u]Deck[/u]."
+		  },
+		  "328": {
+			"name": "Deliver from Evil",
+			"desc": "[k]Block[/k] #d.\n[k]Overcharge[/k] 1 for each [k]Affliction[/k] in hand.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Overcharge[/k] 1 for each [k]Affliction[/k] in hand.\n[u]Draw & Discard 1[/u]."
+		  },
+		  "329": {
+			"name": "Distraction",
+			"desc": "[k]Block[/k] #d.\n[k]Discard[/k]: [k]Block[/k] @d.\n[k]Purge[/k]: Add a [i]Void Coin[/i] to Discard.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Discard[/k]: [k]Block[/k] [u]@d[/u].\n[k]Purge[/k]: Add a [i]Void Coin[/i] to [u]Deck[/u]."
+		  },
+		  "330": {
+			"name": "Security Blanket",
+			"desc": "[k]Block[/k] #d.\n[k]Threshold[/k] 7: [k]Trigger[/k] +1.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\n[k]Threshold[/k] [u]5[/u]: [k]Trigger[/k] +1."
+		  },
+		  "331": {
+			"name": "Haunted Familiar",
+			"desc": "Each time you [k]Discard[/k] a card, gain 1 [k]Corruption[/k].\n[k]Expel[/k].",
+			"up_desc": "Each time you [k]Discard[/k] a card, gain 1 [k]Corruption[/k].\n[k]Expel[/k]."
+		  },
+		  "332": {
+			"name": "Father's Wallet",
+			"desc": "Add 3 [i]Void Coins[/i] to hand.",
+			"up_desc": "Add 3 [i]Void Coins[/i] to hand, [u]and 1 to Discard[/u]."
+		  },
+		  "333": {
+			"name": "Limit",
+			"desc": "While at 13 or more [k]Soultithe[/k], you no longer gain [k]Soultithe[/k].\n[k]Expel[/k].",
+			"up_desc": "While at 13 or more [k]Soultithe[/k], [u]Soultithe-gaining effects only give Corruption instead[/u].\n[k]Expel[/k]."
+		  },
+		  "334": {
+			"name": "Soul Roulette",
+			"desc": "Start of turn, if [k]Soultithe[/k] is even, [k]Sift[/k] 1.\nIf odd, Draw & Discard 1.\nThen [k]Soultithe[/k] 1. [k]Expel[/k].",
+			"up_desc": "Start of turn, if [k]Soultithe[/k] is even, [k]Sift[/k] 1.\nIf odd, Draw & Discard 1.\nThen [k]Soultithe[/k] 1. [k]Expel[/k]."
+		  },
+		  "335": {
+			"name": "Dark Reflection",
+			"desc": "Each turn, gain [k]Corruption[/k] equal to the Energy cost of first card played.\n[k]Expel[/k].",
+			"up_desc": "Each turn, gain [k]Corruption[/k] equal to the Energy cost of first card played.\n[u]Rigged[/u]. [k]Expel[/k]."
+		  },
+		  "336": {
+			"name": "Acquired Resistance",
+			"desc": "At the start of each turn,\n[k]Threshold[/k] 6: [k]Block[/k] 6.\n[k]Expel[/k].",
+			"up_desc": "At the start of each turn,\n[k]Threshold[/k] 6: [k]Block[/k] 6.\n[u]Rigged[/u]. [k]Expel[/k]."
+		  },
+		  "337": {
+			"name": "Ghost Walk",
+			"desc": "Deal 50% (%) [k]Corruption[/k] damage.\nLose 1 [k]Corruption[/k].\n[k]Ghost[/k]. [k]Inert[/k].",
+			"up_desc": "Deal [u]75[/u]% (%) [k]Corruption[/k] damage.\nLose 1 [k]Corruption[/k].\n[k]Ghost[/k]."
+		  },
+		  "338": {
+			"name": "Cursed Scythe",
+			"desc": "[k]Rage[/k] 25%.\nDeal 25% (%) [k]Corruption[/k] damage X times to all enemies.",
+			"up_desc": "[k]Rage[/k] [u]50[/u]%.\nDeal 25% (%) [k]Corruption[/k] damage X times to all enemies."
+		  },
+		  "339": {
+			"name": "Our Father",
+			"desc": "Add [i]Who Thrives in Evil[/i] to Discard.\n[k]Expel[/k].",
+			"up_desc": "Add [i]Who Thrives in Evil[/i] to [u]Deck[/u].\n[k]Expel[/k]."
+		  },
+		  "340": {
+			"name": "Who Thrives in Evil",
+			"desc": "Add [i]Kingdom Comes[/i] to Discard.\n[k]Expel[/k].",
+			"up_desc": "Add [i]Kingdom Comes[/i] to [u]Deck[/u].\n[k]Expel[/k]."
+		  },
+		  "341": {
+			"name": "Kingdom Comes",
+			"desc": "Deal 400% (%) [k]Corruption[/k] damage.",
+			"up_desc": "Deal [u]500[/u]% (%) [k]Corruption[/k] damage."
+		  },
+		  "342": {
+			"name": "Last Whispers",
+			"desc": "[k]Expel[/k] the first card you discard each turn, then add 1 [k]Volatile[/k] copy of it in your hand.\n[k]Expel[/k].",
+			"up_desc": "[k]Expel[/k] the first card you discard each turn, then add [u]2[/u] [k]Volatile[/k] copies of it in your hand.\n[k]Expel[/k]."
+		  },
+		  "343": {
+			"name": "Forbidden Pact",
+			"desc": "Increase handsize by 1.\nWhen you draw a card, suffer [k]Threat[/k] equal to its cost.\n[k]Expel[/k].",
+			"up_desc": "Increase handsize by [u]2[/u].\nWhen you draw a card, suffer [k]Threat[/k] equal to its cost.\n[k]Expel[/k]."
+		  },
+		  "344": {
+			"name": "Soul Kiss",
+			"desc": "[k]Soultithe[/k] 4. [k]Rage[/k] 25%.\n[k]Delay Block[/k] #d.\nDiscard: [k]Rage[/k] 50%\n& [k]Expel[/k].",
+			"up_desc": "[k]Soultithe[/k] [u]5[/u]. [k]Rage[/k] 25%.\n[k]Delay Block[/k] [u]#d[/u].\nDiscard: [k]Rage[/k] [u]75[/u]%\n& [k]Expel[/k]."
+		  },
+		  "345": {
+			"name": "Shed",
+			"desc": "Each time you [k]Discard[/k] a card,\n[k]Block[/k] 1.\n[k]Expel[/k].",
+			"up_desc": "Each time you [k]Discard[/k] a card,\n[k]Block[/k] 1.\n[u]Rigged[/u]. [k]Expel[/k]."
+		  },
+		  "346": {
+			"name": "Unshackle",
+			"desc": "[k]Death Strike[/k] 1. [k]Rebound[/k].\n[k]Opener[/k]: [k]Death Strike[/k] 2 & [k]Expel[/k].",
+			"up_desc": "[k]Death Strike[/k] 1.\n[u]Rage 25%[/u]. [k]Rebound[/k].\n[k]Opener[/k]: [k]Death Strike[/k] [u]3[/u] & [k]Expel[/k]."
+		  },
+		  "400": {
+			"name": "Gem Pack",
+			"desc": "One of each Gem."
+		  },
+		  "401": {
+			"name": "Strength Potion",
+			"desc": "At the start of each turn, gain 25% [k]Rage[/k].\n[k]Potion[/k]. [k]Consumable[/k]."
+		  },
+		  "402": {
+			"name": "Draw Potion",
+			"desc": "At the start of each turn, draw an extra card.\n[k]Potion[/k]. [k]Consumable[/k]."
+		  },
+		  "403": {
+			"name": "Energy Potion",
+			"desc": "At the start of each turn, gain 1 additional Energy.\n[k]Potion[/k]. [k]Consumable[/k]."
+		  },
+		  "404": {
+			"name": "Health Potion",
+			"desc": "Heal 20% of your\nMax HP.\n[k]Potion[/k]. [k]Consumable[/k]."
+		  },
+		  "405": {
+			"name": "Exploding Bottle",
+			"desc": "Deal 10 damage X ($) times to all enemies, equal to your current Floor.\n[k]Potion[/k]. [k]Consumable[/k]."
+		  },
+		  "406": {
+			"name": "Crippling Potion",
+			"desc": "Apply [k]Vulnerable[/k] 2, [k]Slow[/k] 2 and [k]Weak[/k] 2 to all enemies.\n[k]Potion[/k]. [k]Consumable[/k]."
+		  },
+		  "407": {
+			"name": "Meteor",
+			"desc": "Deal #a damage. Deal @a damage to adjacent enemies.\n[k]Purge[/k]: Deal 10 damage to a random enemy.",
+			"up_desc": "Deal #a damage. Deal @a damage to adjacent enemies.\n[k]Purge[/k]: Deal 10 damage to a random enemy."
+		  },
+		  "408": {
+			"name": "Potion of Stealth",
+			"desc": "Creatures will skip their first turn.\n[k]Potion[/k]. [k]Consumable[/k].\nThis Potions effects do not stack."
+		  },
+		  "410": {
+			"name": "Extraction",
+			"desc": "Gain 100 Void Power. [k]Item[/k]. [k]Consumable[/k]."
+		  },
+		  "501": {
+			"name": "Death's Blade",
+			"desc": "Deal #a Damage. Bloodshield @d.",
+			"up_desc": "Deal #a damage. Bloodshield @d."
+		  },
+		  "502": {
+			"name": "Call to Blood",
+			"desc": "Trigger all Bloodshield.",
+			"up_desc": "Inflict Bloodshield # to all enemies. Trigger all Bloodshield."
+		  },
+		  "503": {
+			"name": "Take What's Mine",
+			"desc": "Trigger target's Bloodshield.",
+			"up_desc": "Trigger target's Bloodshield. Apply [k]Vulnerable[/k]."
+		  },
+		  "504": {
+			"name": "Concentrated Blow",
+			"desc": "Target enemy's Bloodshield is set to the combined value of all in play. All other enemies is then set to 0.",
+			"up_desc": "Target enemy's Bloodshield is set to the combined value of all in play."
+		  },
+		  "505": {
+			"name": "Death Blast",
+			"desc": "All enemies suffer Bloodshield #d. [k]Expel[/k]",
+			"up_desc": "All enemies suffer Bloodshield #d. [k]Expel[/k]"
+		  },
+		  "506": {
+			"name": "Power in Blood",
+			"desc": "If an enemy has Bloodshield, gain 2 Strength. Otherwise, gain 3.",
+			"up_desc": "If an enemy has Bloodshield, gain 3 Strength. Otherwise, gain 4."
+		  },
+		  "507": {
+			"name": "Black Blood",
+			"desc": "Deal damage to target enemy equal to its Bloodshield. Their Bloodshield is then reset.",
+			"up_desc": "Deal damage to target enemy equal to its Bloodshield."
+		  },
+		  "508": {
+			"name": "Cursed Blade",
+			"desc": "Deal #a damage.\n[k]Rage[/k] 25%.\n[k]Soultithe[/k] 1.\n[k]Siphon[/k]: Trigger +1 times.",
+			"up_desc": "Deal #a damage.\n[k]Rage[/k] 25%.\n[k]Soultithe[/k] 1.\n[k]Siphon[/k]: Trigger +1 times."
+		  },
+		  "509": {
+			"name": "Thousand Cuts",
+			"desc": "Apply [k]Bleed[/k] 9.",
+			"up_desc": "Apply [k]Bleed[/k] [u]13[/u]."
+		  },
+		  "510": {
+			"name": "From Shadow",
+			"desc": "Apply [k]Bleed[/k] #d.\n[k]Block[/k] @d.",
+			"up_desc": "Apply [k]Bleed[/k] [u]#d[/u].\n[k]Block[/k] [u]@d[/u]."
+		  },
+		  "511": {
+			"name": "Response",
+			"desc": "Each time an enemy plans an [k]Attack Action[/k], gain 1 [k]Volatile[/k] [i]Hidden Blade[/i]. [k]Expel[/k].",
+			"up_desc": "Each time an enemy plans an [k]Attack Action[/k], gain [u]2[/u] [k]Volatile[/k] [i]Hidden Blade[/i]. [k]Expel[/k]."
+		  },
+		  "512": {
+			"name": "Redirect",
+			"desc": "When reshuffling, deal 1 damage to a random enemy for each card. [k]Expel[/k].",
+			"up_desc": "When reshuffling, deal [u]2[/u] damage to a random enemy for each card. [k]Expel[/k]."
+		  },
+		  "513": {
+			"name": "Something Extra",
+			"desc": "All [k]Swift[/k] Attack Cards played will also apply [k]Bleed[/k] 1.\n[k]Expel[/k].",
+			"up_desc": "All [k]Swift[/k] Attack Cards played will also apply [k]Bleed[/k] [u]2[/u].\n[k]Expel[/k]."
+		  },
+		  "514": {
+			"name": "In Cold Blood",
+			"desc": "Deal #a damage. Trigger target's [k]Bleed[/k].",
+			"up_desc": "Deal [u]#a[/u] damage. Trigger target's [k]Bleed[/k]."
+		  },
+		  "515": {
+			"name": "Blood Siphon",
+			"desc": "Remove all [k]Bleed[/k] from the target. Gain that much [k]Block[/k].",
+			"up_desc": "[u]Trigger target's Bleed.[/u] Remove all [k]Bleed[/k] from the target. Gain that much [k]Block[/k]."
+		  },
+		  "516": {
+			"name": "Gutted",
+			"desc": "Trigger target's [k]Bleed[/k].",
+			"up_desc": "Trigger target's [k]Bleed[/k].\n[u]Slay: Transfer their Bleed.[/u]"
+		  },
+		  "517": {
+			"name": "Anemia",
+			"desc": "[k]Block[/k] #d.\nApply [k]Weak[/k] 1 to all [k]Bleeding[/k] enemies.",
+			"up_desc": "[k]Block[/k] [u]#d[/u].\nApply [k]Weak[/k] [u]2[/u] to all [k]Bleeding[/k] enemies."
+		  },
+		  "518": {
+			"name": "Apprentice's Blade",
+			"desc": "[k]Combo[/k] 1. Add 2 [i]Hidden Blades[/i] to your hand.",
+			"up_desc": "[k]Combo[/k] 1. Add [u]3[/u] [i]Hidden Blades[/i] to your hand."
+		  },
+		  "950": {
+			"name": "Daze",
+			"desc": "Dazes are added to the top of your deck. Unplayable."
+		  },
+		  "951": {
+			"name": "Bane",
+			"desc": "This card is useless. It's a card of shame. Shame.\nUnplayable. [k]Scrap[/k]."
+		  },
+		  "952": {
+			"name": "Void",
+			"desc": "When drawn, suffer \n[k]Vulnerable[/k] 1.\n[k]Scrap[/k].\n[k]Expel[/k]."
+		  },
+		  "953": {
+			"name": "Raven's Curse",
+			"desc": "When drawn, all enemies double their AP. Destroy."
+		  },
+		  "954": {
+			"name": "Infection",
+			"desc": "Don't pick at it.\nUnplayable."
+		  },
+		  "955": {
+			"name": "Color of Madness",
+			"desc": "When Drawn, the Void Stone colour you'll recieve next will randomize.\n[k]Scrap[/k]."
+		  },
+		  "956": {
+			"name": "Scar Tissue",
+			"desc": "Memories of past wounds. When Drawn, suffer 5 [k]Threat[/k] & lose 1 Strength.\n[k]Scrap[/k]."
+		  },
+		  "957": {
+			"name": "Exhaustion",
+			"desc": "If in hand at the end of turn, suffer [k]Stun[/k] 1.\n[k]Scrap[/k]. Unplayable."
+		  },
+		  "958": {
+			"name": "Remorse",
+			"desc": "When drawn, 1 random card will be discarded.\n[k]Scrap[/k]. Unplayable."
+		  },
+		  "959": {
+			"name": "Remorse",
+			"desc": "If in hand at the end of turn, suffer\n[k]Cripple[/k] 1.\n[k]Scrap[/k]. Unplayable."
+		  },
+		  "960": {
+			"name": "Void Coin",
+			"desc": "Gain 1 Energy,\n[k]Discard[/k] 1.\nWhen Drawn: [k]Block[/k] 3.\n[k]Discard[/k]: [k]Expel[/k],\nDraw & [k]Discard[/k] 1.",
+			"up_desc": "Gain 1 Energy,\n[k]Discard[/k] 1.\nWhen Drawn: [k]Block[/k] [u]6[/u].\n[k]Discard[/k]: Draw & [k]Discard[/k] 1."
+		  }
+		},		 
 	
 	"mob_groups": {
 		"arkaos": {
@@ -223,7 +2095,7 @@
 			"name": 	"Wicked Worshipers",
 			"desc": 	"In the damp, dark corners of the Vault, desperate souls will turn and swear devotion to the anything they sense may fill them with light. The Void is a crewl deity however - and the prayers of the few will often go unanswered.",
 			"tips":		"Keep an eye on the Effigy getting buffed up for a big hit while it keeps you from targeting Attacks on its supporting allies."
-		},
+		}
 	},
 
 	"monster_names": {
@@ -490,7 +2362,7 @@
 		"consume_blood": {
 			"name": 	"Consume Blood",
 			"desc": 	"Will remove Bleed from all creatures, and inflict that much damage."
-		},
+		}
 
 		
 		
